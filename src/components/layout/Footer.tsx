@@ -49,12 +49,7 @@ const Footer = () => {
     { name: 'YouTube', icon: <Youtube className="h-5 w-5" />, href: '#' },
   ];
 
-  // Footer Pages
-  const FOOTER_PAGES = [
-    { labelEn: 'Home', labelAr: 'الرئيسية', href: '/' },
-    { labelEn: 'Products', labelAr: 'المنتجات', href: '/product' },
   
-  ];
 
   return (
     <footer className="bg-neutral-900 text-neutral-100">
@@ -99,24 +94,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="mb-4 text-lg font-semibold text-white">
-              {isEnglish ? 'Quick Links' : 'روابط سريعة'}
-            </h3>
-            <ul className="space-y-3">
-              {FOOTER_PAGES.map(({ labelEn, labelAr, href }) => (
-                <li key={labelEn}>
-                  <Link
-                    to={href}
-                    className="text-sm text-neutral-400 transition-colors hover:text-primary-500"
-                  >
-                    {isEnglish ? labelEn : labelAr}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+        <div/>
 
           {/* Contact Info */}
           <div>
