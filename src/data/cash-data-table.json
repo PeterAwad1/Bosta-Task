@@ -1,0 +1,92 @@
+[
+  {
+    "receipt": "RCPT-001",
+    "invoice": "INV-101",
+    "trainee": "Youssef Al-Masry",
+    "type": "Cash-in",
+    "method": "Cash",
+    "amount": 400,
+    "dateIssued": "2023-09-01"
+  },
+  {
+    "receipt": "RCPT-002",
+    "invoice": "INV-102",
+    "trainee": "Youssef Al-Masry",
+    "type": "Cash-out",
+    "method": "Credit Card",
+    "amount": 200,
+    "dateIssued": "2023-09-02"
+  },
+  {
+    "receipt": "RCPT-003",
+    "invoice": "INV-103",
+    "trainee": "Youssef Al-Masry",
+    "type": "Cash-in",
+    "method": "Bank Transfer",
+    "amount": 500,
+    "dateIssued": "2023-09-03"
+  },
+  {
+    "receipt": "RCPT-004",
+    "invoice": "INV-104",
+    "trainee": "Youssef Al-Masry",
+    "type": "Cash-out",
+    "method": "Cash",
+    "amount": 300,
+    "dateIssued": "2023-09-04"
+  },
+  {
+    "receipt": "RCPT-005",
+    "invoice": "INV-105",
+    "trainee": "Youssef Al-Masry",
+    "type": "Cash-in",
+    "method": "Credit Card",
+    "amount": 700,
+    "dateIssued": "2023-09-05"
+  },
+  {
+    "receipt": "RCPT-006",
+    "invoice": "INV-106",
+    "trainee": "Youssef Al-Masry",
+    "type": "Cash-out",
+    "method": "Bank Transfer",
+    "amount": 250,
+    "dateIssued": "2023-09-06"
+  },
+  {
+    "receipt": "RCPT-007",
+    "invoice": "INV-107",
+    "trainee": "Youssef Al-Masry",
+    "type": "Cash-in",
+    "method": "Cash",
+    "amount": 600,
+    "dateIssued": "2023-09-07"
+  },
+  {
+    "receipt": "RCPT-008",
+    "invoice": "INV-108",
+    "trainee": "Youssef Al-Masry",
+    "type": "Cash-out",
+    "method": "Credit Card",
+    "amount": 350,
+    "dateIssued": "2023-09-08"
+  },
+  {
+    "receipt": "RCPT-009",
+    "invoice": "INV-109",
+    "trainee": "Youssef Al-Masry",
+    "type": "Cash-in",
+    "method": "Bank Transfer",
+    "amount": 800,
+    "dateIssued": "2023-09-09"
+  },
+  {
+    "receipt": "RCPT-010",
+    "invoice": "INV-110",
+    "trainee": "Youssef Al-Masry",
+    "type": "Cash-out",
+    "method": "Cash",
+    "amount": 400,
+    "dateIssued": "2023-09-10"
+  }
+]

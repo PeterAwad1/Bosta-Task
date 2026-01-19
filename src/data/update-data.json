@@ -1,0 +1,242 @@
+[
+  {
+    "id": "1",
+    "updateDate": "1 Sep 2023 5:00 PM",
+    "postedBy": "Youssef Al-M...",
+    "subject": "New Program Launch",
+    "announcementDetails": "Exciting News! Our Academy has l...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "2",
+    "updateDate": "1 Sep 2023 5:00 PM",
+    "postedBy": "Youssef Al-M...",
+    "subject": "Event Announcement",
+    "announcementDetails": "Join us for the Annual Sports Day!...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "3",
+    "updateDate": "1 Sep 2023 5:00 PM",
+    "postedBy": "Youssef Al-M...",
+    "subject": "Achievement Announcement",
+    "announcementDetails": "Congratulations to our Basketball...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "4",
+    "updateDate": "1 Sep 2023 5:00 PM",
+    "postedBy": "Youssef Al-M...",
+    "subject": "Facility Upgrade",
+    "announcementDetails": "We've upgraded our gym with ne...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "5",
+    "updateDate": "1 Sep 2023 5:00 PM",
+    "postedBy": "Youssef Al-M...",
+    "subject": "Special Offers",
+    "announcementDetails": "Limited-Time Offer: Get a 20% disc...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "6",
+    "updateDate": "1 Sep 2023 5:00 PM",
+    "postedBy": "Youssef Al-M...",
+    "subject": "Trainer Highlights",
+    "announcementDetails": "Meet Our New Trainer: Coach Sara...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "7",
+    "updateDate": "2 Sep 2023 3:00 PM",
+    "postedBy": "Sarah K.",
+    "subject": "Monthly Newsletter",
+    "announcementDetails": "Check out our updates and upcoming...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "8",
+    "updateDate": "2 Sep 2023 4:00 PM",
+    "postedBy": "Mark J.",
+    "subject": "Holiday Closure",
+    "announcementDetails": "The academy will be closed on the...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "9",
+    "updateDate": "3 Sep 2023 10:00 AM",
+    "postedBy": "Youssef Al-M...",
+    "subject": "Safety Guidelines",
+    "announcementDetails": "Important safety measures for all...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "10",
+    "updateDate": "4 Sep 2023 8:00 AM",
+    "postedBy": "Admin",
+    "subject": "System Downtime",
+    "announcementDetails": "Scheduled maintenance on 5 Sep...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "11",
+    "updateDate": "4 Sep 2023 1:00 PM",
+    "postedBy": "Sarah K.",
+    "subject": "Team Highlights",
+    "announcementDetails": "Celebrating our coaching staff’s...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "12",
+    "updateDate": "5 Sep 2023 6:00 PM",
+    "postedBy": "Mark J.",
+    "subject": "Training Updates",
+    "announcementDetails": "New training schedules available...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "13",
+    "updateDate": "5 Sep 2023 10:00 AM",
+    "postedBy": "Admin",
+    "subject": "Discount Offer",
+    "announcementDetails": "Exclusive 15% off for early bird...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "14",
+    "updateDate": "6 Sep 2023 9:00 AM",
+    "postedBy": "Youssef Al-M...",
+    "subject": "Program Update",
+    "announcementDetails": "Our summer program schedule has...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "15",
+    "updateDate": "6 Sep 2023 11:00 AM",
+    "postedBy": "Admin",
+    "subject": "Survey Reminder",
+    "announcementDetails": "Your feedback matters! Please...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "16",
+    "updateDate": "7 Sep 2023 2:00 PM",
+    "postedBy": "Sarah K.",
+    "subject": "Community Event",
+    "announcementDetails": "Join us this weekend for a fun...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "17",
+    "updateDate": "7 Sep 2023 4:00 PM",
+    "postedBy": "Mark J.",
+    "subject": "Maintenance Update",
+    "announcementDetails": "All facilities will be available...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "18",
+    "updateDate": "8 Sep 2023 7:00 PM",
+    "postedBy": "Youssef Al-M...",
+    "subject": "Member Spotlight",
+    "announcementDetails": "Highlighting our star members for...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "19",
+    "updateDate": "8 Sep 2023 5:00 PM",
+    "postedBy": "Sarah K.",
+    "subject": "Coach Insights",
+    "announcementDetails": "Hear from our top trainers about...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  },
+  {
+    "id": "20",
+    "updateDate": "9 Sep 2023 8:00 AM",
+    "postedBy": "Admin",
+    "subject": "Weather Alert",
+    "announcementDetails": "Due to weather conditions, some...",
+    "src": "/public/images/updates/admin.png",
+    "images": [
+      "/public/images/updates/training.png",
+      "/public/images/updates/training.png"
+    ]
+  }
+]

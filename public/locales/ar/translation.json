@@ -1,0 +1,1151 @@
+{
+  "layout": {
+    "navbar": {}
+  },
+  "licenseFooter": {
+    "title": "بيان الترخيص",
+    "fields": {
+      "licenseStatementEN": {
+        "label": "بيان الترخيص (بالإنجليزية)*",
+        "placeholder": "Homes& مرخصة من الهيئة العامة للرقابة المالية."
+      },
+      "licenseStatementAR": {
+        "label": "بيان الترخيص (بالعربية)*",
+        "placeholder": "Homes& مرخصة من الهيئة العامة للرقابة المالية."
+      },
+      "linkLabelEN": {
+        "label": "وصف رابط الترخيص (بالإنجليزية)*",
+        "placeholder": "مثال: License FR001"
+      },
+      "linkLabelAR": {
+        "label": "وصف رابط الترخيص (بالعربية)*",
+        "placeholder": "مثال: License FR001"
+      },
+      "linkValue": {
+        "label": "رابط الترخيص*",
+        "placeholder": "https://www.fra.gov.eg"
+      }
+    },
+    "errors": {
+      "licenseStatementEN": {
+        "required": "بيان الترخيص باللغة الإنجليزية مطلوب.",
+        "min": "يجب أن يتكون بيان الترخيص باللغة الإنجليزية من 3 أحرف على الأقل."
+      },
+      "licenseStatementAR": {
+        "required": "بيان الترخيص باللغة العربية مطلوب.",
+        "min": "يجب أن يتكون بيان الترخيص باللغة العربية من 3 أحرف على الأقل."
+      },
+      "linkLabelEN": {
+        "required": "وصف الرابط باللغة الإنجليزية مطلوب.",
+        "min": "يجب أن يتكون وصف الرابط باللغة الإنجليزية من حرفين على الأقل."
+      },
+      "linkLabelAR": {
+        "required": "وصف الرابط باللغة العربية مطلوب.",
+        "min": "يجب أن يتكون وصف الرابط باللغة العربية من حرفين على الأقل."
+      },
+      "linkValue": {
+        "required": "رابط الترخيص مطلوب.",
+        "invalid": "من فضلك أدخل رابطًا صحيحًا.",
+        "min": "يجب أن يتكون رابط الترخيص من 5 أحرف على الأقل."
+      }
+    }
+  },
+  "paymentPlan": {
+    "labels": {
+      "dueDate": "تاريخ الاستحقاق*",
+      "paymentNameEn": "اسم الدفعة (بالإنجليزية)*",
+      "paymentNameAr": "اسم الدفعة (بالعربية)*",
+      "paymentValue": "قيمة الدفعة*",
+      "paymentType": "نوع الدفع *"
+    },
+    "placeholders": {
+      "selectDueDate": "اختر تاريخ الاستحقاق",
+      "enterPaymentNameEn": "أدخل اسم الدفعة باللغة الإنجليزية",
+      "enterPaymentNameAr": "أدخل اسم الدفعة باللغة العربية",
+      "enterPaymentValue": "أدخل قيمة الدفعة",
+      "selectPaymentType": "حدد نوع الدفع"
+    },
+    "errors": {
+      "dueDateRequired": "تاريخ الاستحقاق مطلوب.",
+      "paymentNameEnRequired": "اسم الدفعة باللغة الإنجليزية مطلوب.",
+      "paymentNameEnMin": "يجب أن يكون اسم الدفعة باللغة الإنجليزية مكوَّنًا من 3 أحرف على الأقل.",
+      "paymentNameArRequired": "اسم الدفعة باللغة العربية مطلوب.",
+      "paymentNameArMin": "يجب أن يكون اسم الدفعة باللغة العربية مكوَّنًا من 3 أحرف على الأقل.",
+      "paymentValueRequired": "قيمة الدفعة مطلوبة.",
+      "paymentValueMin": "يجب أن تكون قيمة الدفعة أكبر من 0.",
+      "valueMustBeNumber": "يجب أن تكون القيمة رقمًا.",
+      "paymentTypeRequired": "نوع الدفع مطلوب"
+    },
+    "action": {
+      "editPaymentType": "تعديل نوع الدفع",
+      "deletePaymentType": "حذف نوع الدفع"
+    }
+  },
+  "maxFilesOne": "غير مسموح برفع أكثر من ملف واحد فقط",
+  "fileUploadError": "حدث خطأ أثناء رفع الملف",
+  "fileTooMany": "غير مسموح برفع أكثر من ملف واحد فقط",
+  "contact": {
+    "title": "اتصل بنا",
+    "fields": {
+      "chatTimeEn": "وقت المحادثة (إنجليزي) *",
+      "chatTimeAr": "وقت المحادثة (عربي) *",
+      "chatPhone": "هاتف المحادثة *",
+      "phoneCall": "هاتف الاتصال *",
+      "phoneTimeEn": "وقت الاتصال (إنجليزي) *",
+      "phoneTimeAr": "وقت الاتصال (عربي) *",
+      "emailTimeEn": "وقت البريد الإلكتروني (إنجليزي) *",
+      "emailTimeAr": " وقت البريد الإلكتروني (عربي)*",
+      "email": "البريد الإلكتروني *"
+    },
+    "placeholders": {
+      "chatTimeEn": "\"متاح من الأحد إلى الجمعة من الساعة 09:00 صباحًا حتى 11:00 مساءً\"",
+      "chatTimeAr": "\"متاح من الأحد إلى الجمعة من الساعة 09:00 صباحًا حتى 11:00 مساءً\"",
+      "chatPhone": "رقم الهاتف الذي ستعيد المحادثة توجيهه إليه",
+      "phoneCall": "رقم الهاتف",
+      "phoneTimeEn": "\"متاح من الأحد إلى الجمعة من الساعة 09:00 صباحًا حتى 11:00 مساءً\"",
+      "phoneTimeAr": "\"متاح من الأحد إلى الجمعة من الساعة 09:00 صباحًا حتى 11:00 مساءً\"",
+      "emailTimeEn": "\"متاح من الأحد إلى الجمعة من الساعة 09:00 صباحًا حتى 11:00 مساءً\"",
+      "emailTimeAr": "\"متاح من الأحد إلى الجمعة من الساعة 09:00 صباحًا حتى 11:00 مساءً\"",
+      "email": "Support@Email.com"
+    },
+    "errors": {
+      "required": "هذا الحقل مطلوب",
+      "min": "الحد الأدنى للطول هو 3 أحرف",
+      "emailInvalid": "يرجى إدخال بريد إلكتروني صالح"
+    }
+  },
+  "guideline": {
+    "form": {
+      "imageLabel": "رفع الصورة *",
+      "titleEn": "العنوان (إنجليزي) *",
+      "enterTitleEn": "أدخل العنوان باللغة الإنجليزية",
+      "titleAr": "العنوان (عربي) *",
+      "enterTitleAr": "أدخل العنوان باللغة العربية",
+      "subHeadingEn": "العنوان الفرعي (إنجليزي) *",
+      "enterSubHeadingEn": "أدخل العنوان الفرعي باللغة الإنجليزية",
+      "subHeadingAr": "العنوان الفرعي (عربي) *",
+      "enterSubHeadingAr": "أدخل العنوان الفرعي باللغة العربية",
+      "descriptionEn": "الوصف (إنجليزي) *",
+      "enterDescriptionEn": "أدخل الوصف باللغة الإنجليزية",
+      "descriptionAr": "الوصف (عربي) *",
+      "enterDescriptionAr": "أدخل الوصف باللغة العربية",
+      "readTime": "مدة القراءة *",
+      "enterReadTime": "أدخل مدة القراءة"
+    },
+    "errors": {
+      "fileSizeMax": "يجب أن يكون حجم الملف أقل من 4 ميجابايت",
+      "maxImages": "يمكنك رفع صورة واحدة فقط",
+      "fileRequired": "الصورة مطلوبة",
+      "titleEnRequired": "العنوان باللغة الإنجليزية مطلوب",
+      "titleEnMin": "يجب أن يكون العنوان باللغة الإنجليزية 3 أحرف على الأقل",
+      "titleArRequired": "العنوان باللغة العربية مطلوب",
+      "titleArMin": "يجب أن يكون العنوان باللغة العربية 3 أحرف على الأقل",
+      "subHeadingEnRequired": "العنوان الفرعي باللغة الإنجليزية مطلوب",
+      "subHeadingEnMin": "يجب أن يكون العنوان الفرعي باللغة الإنجليزية 3 أحرف على الأقل",
+      "subHeadingArRequired": "العنوان الفرعي باللغة العربية مطلوب",
+      "subHeadingArMin": "يجب أن يكون العنوان الفرعي باللغة العربية 3 أحرف على الأقل",
+      "descriptionEnRequired": "الوصف باللغة الإنجليزية مطلوب",
+      "descriptionEnMin": "يجب أن يكون الوصف باللغة الإنجليزية 3 أحرف على الأقل",
+      "descriptionArRequired": "الوصف باللغة العربية مطلوب",
+      "descriptionArMin": "يجب أن يكون الوصف باللغة العربية 3 أحرف على الأقل",
+      "readTimeRequired": "مدة القراءة مطلوبة",
+      "readTimeMin": "يجب أن تحتوي مدة القراءة على حرف واحد على الأقل"
+    },
+    "addGuideline": "إضافة المبدأ التوجيهي",
+    "addNewGuideline": "إضافة توجيهات جديدة",
+    "editGuideline": "تعديل المبدأ التوجيهي"
+  },
+  "steatyForm": {
+    "labels": {
+      "numberOfYears": "عدد السنوات",
+      "yearEntries": "بيانات السنوات",
+      "nameEn": "الاسم (انجليزي) *",
+      "nameAr": "الاسم (عربي) *",
+      "growth": "نمو رأس المال *",
+      "rental": "عائد الإيجار (%)",
+      "percentage": "نسبة مئوية *",
+      "grossPrice": "قيمة الإرجاع *",
+      "grossPriceHint": "يمثل هذا السعر الأولي للسهم ولا يمكن تعديله.",
+      "yield": "عائد الإيجار *"
+    },
+    "placeholders": {
+      "numberOfYears": "أدخل عدد السنوات",
+      "nameEn": "أدخل الاسم باللغة الإنجليزية",
+      "nameAr": "أدخل الاسم باللغة العربية",
+      "growth": "أدخل نسبة النمو",
+      "rental": "أدخل قيمة الإيجار",
+      "percentage": "أدخل النسبة المئوية للكسب السريع",
+      "grossPrice": "أدخل قيمة الإرجاع",
+      "yield": "أدخل عائد الإيجار"
+    },
+    "errors": {
+      "numberOfYearsRequired": "عدد السنوات مطلوب",
+      "numberOfYearsMin": "الحد الأدنى المسموح به هو 1",
+      "numberOfYearsMax": "الحد الأقصى المسموح به هو 50",
+      "nameRequired": "هذا الحقل مطلوب",
+      "growthRequired": "قيمة النمو مطلوبة",
+      "rentalRequired": "قيمة الإيجار مطلوبة",
+      "percentageRequired": "النسبة المئوية مطلوبة",
+      "percentageMin": "يجب أن تكون النسبة 1% على الأقل",
+      "percentageMax": "لا يمكن أن تتجاوز النسبة 100%",
+      "grossPriceRequired": "قيمة الإرجاع مطلوبة",
+      "grossRequired": "قيمة النمو مطلوبة",
+      "grossMin": "يجب أن تكون قيمة النمو 1% على الأقل",
+      "grossMax": "لا يمكن أن تتجاوز قيمة النمو 100%",
+      "yieldRequired": "قيمة العائد مطلوبة",
+      "yieldMin": "يجب أن تكون قيمة العائد 0% على الأقل",
+      "yieldMax": "لا يمكن أن تتجاوز قيمة العائد 100%"
+    },
+    "exitYearNote": "هذه هي سنة الخروج. الأسماء مغلقة تلقائياً."
+  },
+  "block": {
+    "addBlock": "اضف بلوك",
+    "addNewBlock": "اضف بلوك جديد",
+    "form": {
+      "typeLabel": "النوع *",
+      "typePlaceholder": "اختر نوع البلوك",
+      "selectTypeToContinue": "اختر نوع البلوك للمتابعة",
+      "titleEnLabel": "العنوان بالإنجليزية *",
+      "titleEnPlaceholder": "أدخل العنوان بالإنجليزية",
+      "titleArLabel": "العنوان بالعربية *",
+      "titleArPlaceholder": "أدخل العنوان بالعربية",
+      "descriptionEnLabel": "الوصف بالإنجليزية *",
+      "descriptionEnPlaceholder": "أدخل الوصف بالإنجليزية",
+      "descriptionArLabel": "الوصف بالعربية *",
+      "descriptionArPlaceholder": "أدخل الوصف بالعربية",
+      "imageLabel": "رفع صورة ",
+      "documentLabel": "رفع ملف *",
+      "videoLabel": "رفع فيديو *",
+      "headerEnLabel": "العنوان الرئيسي بالإنجليزية *",
+      "headerEnPlaceholder": "أدخل العنوان الرئيسي بالإنجليزية",
+      "headerArLabel": "العنوان الرئيسي بالعربية *",
+      "headerArPlaceholder": "أدخل العنوان الرئيسي بالعربية",
+      "badgeImageLabel": "رفع صورة الشارة *",
+      "imageTitleEnLabel": "عنوان الصورة بالإنجليزية *",
+      "imageTitleEnPlaceholder": "مثال: Homes& مرخصة من قبل FRA",
+      "imageTitleArLabel": "عنوان الصورة بالعربية *",
+      "imageTitleArPlaceholder": "مثال: Homes& مرخصة من قبل FRA",
+      "linkLabelEnLabel": "نص الرابط بالإنجليزية *",
+      "linkLabelEnPlaceholder": "مثال: الترخيص FR001",
+      "linkLabelArLabel": "نص الرابط بالعربية *",
+      "linkLabelArPlaceholder": "مثال: الترخيص FR001",
+      "imageDescEnLabel": "وصف الصورة بالإنجليزية *",
+      "imageDescEnPlaceholder": "وصف الصورة بالإنجليزية - نص منسق",
+      "imageDescArLabel": "وصف الصورة بالعربية *",
+      "imageDescArPlaceholder": "وصف الصورة بالعربية - نص منسق",
+      "linkValueLabel": "رابط URL *",
+      "linkValuePlaceholder": "https://www.example.com",
+      "stepsLabel": "الخطوات *",
+      "addStep": "+ إضافة خطوات",
+      "removeStep": "حذف الخطوة",
+      "step": "خطوة",
+      "stepTitleEnLabel": "عنوان الخطوة بالإنجليزية *",
+      "stepTitleEnPlaceholder": "مثال: اختر عقار",
+      "stepTitleArLabel": "عنوان الخطوة بالعربية *",
+      "stepTitleArPlaceholder": "مثال: اختر عقار",
+      "stepDescEnLabel": "وصف الخطوة بالإنجليزية *",
+      "stepDescEnPlaceholder": "مثال: تصفح الفرص المتاحة في نموذج الربح السريع أو النمو الثابت.",
+      "stepDescArLabel": "وصف الخطوة بالعربية *",
+      "stepDescArPlaceholder": "مثال: تصفح الفرص المتاحة في نموذج الربح السريع أو النمو الثابت."
+    },
+    "errors": {
+      "typeRequired": "نوع البلوك مطلوب",
+      "titleEnRequired": "العنوان بالإنجليزية مطلوب",
+      "titleArRequired": "العنوان بالعربية مطلوب",
+      "descriptionEnRequired": "الوصف بالإنجليزية مطلوب",
+      "descriptionArRequired": "الوصف بالعربية مطلوب",
+      "headerEnRequired": "العنوان الرئيسي بالإنجليزية مطلوب",
+      "headerArRequired": "العنوان الرئيسي بالعربية مطلوب",
+      "imageTitleEnRequired": "عنوان الصورة بالإنجليزية مطلوب",
+      "imageTitleArRequired": "عنوان الصورة بالعربية مطلوب",
+      "linkLabelEnRequired": "نص الرابط بالإنجليزية مطلوب",
+      "linkLabelArRequired": "نص الرابط بالعربية مطلوب",
+      "imageDescEnRequired": "وصف الصورة بالإنجليزية مطلوب",
+      "imageDescArRequired": "وصف الصورة بالعربية مطلوب",
+      "stepTitleEnRequired": "عنوان الخطوة بالإنجليزية مطلوب",
+      "stepTitleArRequired": "عنوان الخطوة بالعربية مطلوب",
+      "stepDescEnRequired": "وصف الخطوة بالإنجليزية مطلوب",
+      "stepDescArRequired": "وصف الخطوة بالعربية مطلوب",
+      "imageRequired": "الصورة مطلوبة",
+      "documentRequired": "الملف مطلوب",
+      "videoRequired": "الفيديو مطلوب",
+      "badgeImageRequired": "صورة الشارة مطلوبة",
+      "atLeastOneStepRequired": "خطوة واحدة على الأقل مطلوبة",
+      "validUrlRequired": "يرجى إدخال رابط صحيح"
+    },
+    "editBlock": "تعديل البلوك",
+    "deleteBlock": "حذف البلوك",
+    "message": {
+      "blockDeletedSuccessfully": "لقد تم حذف الكتلة بنجاح"
+    }
+  },
+  "fileSizeMax": "حجم الملف كبير جدًا. الحد الأقصى {{size}} ميغابايت",
+  "leo_walker": "ليو ووكر",
+  "property_management_system": "نظام إدارة العقارات",
+  "real_estate_hub": "مركز العقارات",
+  "properties_management": "إدارة العقارات",
+  "properties_list": "قائمة العقارات",
+  "developers": "المطورون",
+  "knowledge_hub": "مركز المعرفة",
+  "investor_guidelines": "إرشادات المستثمر",
+  "faqs": "الأسئلة الشائعة",
+  "legal_compliance": "الامتثال القانوني",
+  "downloadable_files": "الملفات القابلة للتنزيل",
+  "app_guide": "دليل التطبيق",
+  "how_to_use_app": "كيفية استخدام التطبيق",
+  "prices": "الأسعار",
+  "payment_plan": "خطة الدفع",
+  "users": "المستخدمون",
+  "application_users": "مستخدمي التطبيق",
+  "admins": "المسؤولون",
+  "privacy_policy": "سياسة الخصوصية",
+  "risk_statements": "بيانات المخاطر",
+  "payment_terms": "شروط الدفع",
+  "priceForm": {
+    "errors": {
+      "dateRequired": "التاريخ مطلوب",
+      "timeRequired": "الوقت مطلوب",
+      "priceRequired": "السعر مطلوب",
+      "priceMin": "يجب أن يكون السعر أكبر من ٠",
+      "capitalAppreciationRequired": "مطلوب زيادة رأس المال",
+      "capitalAppreciationRequiredMin": "يجب أن يكون تقدير رأس المال أكبر من 0",
+      "capitalAppreciationRequiredMax": "يجب أن يكون تقدير رأس المال أقل من 100"
+    },
+    "labels": {
+      "date": "التاريخ*",
+      "time": "الوقت*",
+      "price": "السعر*",
+      "capitalAppreciationPercent": "زيادة رأس المال*"
+    },
+    "placeholders": {
+      "selectDate": "اختر التاريخ",
+      "selectTime": "اختر الوقت",
+      "enterPrice": "أدخل السعر",
+      "enterCapitalAppreciationPercent": "أدخل نسبة تقدير رأس المال"
+    }
+  },
+  "pages": {
+    "login": {
+      "title": "مرحباً بعودتك!",
+      "description": "يرجى تسجيل الدخول لإدارة مطعمك.",
+      "forgetPassword": "نسيت كلمة المرور؟"
+    },
+    "forgetPassword": {
+      "title": "نسيت كلمة المرور",
+      "description": "أدخل البريد الإلكتروني المرتبط بحسابك لتلقي رابط إعادة تعيين كلمة المرور."
+    },
+    "otp": {
+      "title": "تم إرسال رمز التحقق",
+      "description": "لقد أرسلنا رمز تحقق لمرة واحدة (OTP) إلى example@email.com. يرجى التحقق من صندوق الوارد وإدخال الرمز أدناه لإعادة تعيين كلمة المرور."
+    },
+    "resetPassword": {
+      "title": "تغيير كلمة المرور",
+      "description": "أدخل كلمة مرور جديدة أدناه."
+    }
+  },
+  "forms": {
+    "labels": {
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
+      "dateRange": {
+        "title": "اختر نطاق التاريخ",
+        "description": "اختر تاريخ البدء والنهاية للنطاق المطلوب"
+      },
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء"
+    },
+    "placeholders": {
+      "email": "يرجى إدخال بريدك الإلكتروني",
+      "password": "يرجى إدخال كلمة المرور",
+      "newPassword": "يرجى إدخال كلمة المرور الجديدة",
+      "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
+      "pickADate": "اختر تاريخاً"
+    },
+    "errors": {
+      "email": {
+        "required": "البريد الإلكتروني مطلوب",
+        "invalid": "صيغة غير صحيحة"
+      },
+      "confirmNewPassword": {
+        "match": "كلمتا المرور غير متطابقتين"
+      },
+      "otp": "يجب أن يكون رمز التحقق من 5 أحرف.",
+      "startDate": "تاريخ البدء مطلوب",
+      "endDate": "تاريخ الانتهاء مطلوب",
+      "dateComparison": "يجب أن يكون تاريخ البدء قبل تاريخ الانتهاء"
+    },
+    "buttonLabels": {
+      "submit": "إرسال",
+      "send": "إرسال",
+      "reset": "إعادة تعيين",
+      "signin": "تسجيل الدخول",
+      "backLogin": "العودة لتسجيل الدخول",
+      "resendAgain": "إعادة الإرسال",
+      "resendEmail": "إعادة إرسال البريد",
+      "seconds": "ثواني",
+      "apply": "تطبيق",
+      "cancel": "إلغاء",
+      "close": "إغلاق",
+      "remove": "إزالة",
+      "editProperty": "تعديل العقار",
+      "editDeveloper": "تعديل المطور",
+      "deleteDeveloper": "حذف المطور",
+      "assignPrices": "تعيين الأسعار",
+      "assignDocuments": "تعيين المستندات",
+      "assignImages": "تعيين الصور",
+      "addPrice": "إضافة سعر",
+      "addDocument": "إضافة مستند",
+      "editPrice": "تعديل السعر",
+      "editDocument": "تعديل المستند",
+      "editFaq": "تعديل الأسئلة الشائعة",
+      "addFaq": "إضافة سؤال شائع",
+      "editSocialMedia": "تعديل رابط التواصل الاجتماعي",
+      "deleteSocialMedia": "حذف رابط التواصل الاجتماعي",
+      "editGuideline": "تعديل المبدأ التوجيهي",
+      "deleteGuideline": "حذف المبدأ التوجيهي",
+      "growthProperty": "العائد السنوي",
+      "quickProperty": "العائد السنوي",
+      "paymentPlan": "خطة الدفع",
+      "propertyValue": "السعر والتقيم",
+      "expectedAnnualReturn": "العائد المتوقع",
+      "publish": "نشر العقار",
+      "addPaymentPlan": "أضف خطة الدفع",
+      "deleteAdmin": "حذف المشرف",
+      "editAdmin": "تعديل المشرف",
+      "deleteRole": "حذف الدور",
+      "editRole": "تعديل الدور",
+      "completefunding": "تمويل كامل",
+      "exitProperty": "اخراج العقار"
+    },
+    "toasts": {
+      "otp": "تم إرسال البريد! يرجى التحقق من صندوق الوارد.",
+      "changePassword": "تم إعادة تعيين كلمة المرور بنجاح. يرجى تسجيل الدخول مرة أخرى."
+    }
+  },
+  "shared": {
+    "appTitle": "بوسطة تاسك",
+    "optionalLabel": "(اختياري)",
+    "phoneInput": {
+      "searchPlaceholder": "ابحث عن دولة...",
+      "emptyState": "لا توجد دول متاحة.",
+      "countrySelectAria": "اختر الدولة"
+    }
+  },
+  "property": {
+    "showing": {
+      "property": "عرض {{count}} عقار",
+      "properties": "عرض {{count}} عقار"
+    },
+    "noPropertiesFound": {
+      "title": "لم يتم العثور على عقارات",
+      "description": "حاول تعديل البحث أو الفلاتر للعثور على ما تبحث عنه."
+    },
+    "investment": "نموذج الاستثمار",
+    "id": "المعرف",
+    "name": "الاسم",
+    "address": "العنوان",
+    "area": "المنطقة",
+    "descrption": "الوصف",
+    "developer": "المطور",
+    "unitPrice": "سعر الوحدة",
+    "totalShares": "إجمالي الأسهم",
+    "addedDate": "تاريخ الإضافة",
+    "exist": " إستراتيجية الخروج",
+    "actions": "إجراءات",
+    "addProperty": "إضافة عقار",
+    "addNewProperty": "إضافة عقار جديد",
+    "editProperty": "تعديل العقار",
+    "form": {
+      "nameEn": "الاسم بالإنجليزية *",
+      "nameAr": "الاسم بالعربية *",
+      "aboutEn": "الوصف بالإنجليزية *",
+      "aboutAr": "الوصف بالعربية *",
+      "uploadCover": "غلاف العقار",
+      "enterNameEn": "أدخل اسم العقار بالإنجليزية",
+      "enterNameAr": "أدخل اسم العقار بالعربية",
+      "enterAboutEn": "أدخل وصف العقار بالإنجليزية",
+      "enterAboutAr": "أدخل وصف العقار بالعربية",
+      "totalShares": "إجمالي الأسهم *",
+      "enterTotalShares": "أدخل إجمالي الأسهم",
+      "unitPrice": "سعر الوحدة *",
+      "enterUnitPrice": "أدخل سعر الوحدة",
+      "exitStrategy": "استراتيجية الخروج *",
+      "city": "المدينة *",
+      "selectCity": "اختر المدينة",
+      "area": "المنطقة *",
+      "selectArea": "اختر المنطقة",
+      "developer": "المطور *",
+      "selectDeveloper": "اختر المطور",
+      "downPayment": "الدفعة الأولى *",
+      "enterDownPayment": "أدخل الدفعة الأولى",
+      "planDuration": "مدة الخطة *",
+      "enterPlanDuration": "أدخل عدد الأشهر",
+      "maintenanceFees": "رسوم الصيانة *",
+      "enterMaintenanceFees": "أدخل رسوم الصيانة",
+      "investmentModel": "نموذج الاستثمار *",
+      "selectInvestmentModel": "اختر نموذج الاستثمار",
+      "installmentFrequency": "تكرار الأقساط *",
+      "selectInstallmentFrequency": "اختر تكرار الأقساط",
+      "selectExitStrategy": "حدد استراتيجية الخروج",
+      "imageLable": "صورة العقار *",
+      "exitDate": "تاريخ الخروج *",
+      "selectExitDate": "اختر تاريخ الخروج",
+      "estimatedROI": "عائد الاستثمار المتوقع *",
+      "enterEstimatedROI": "أدخل عائد الاستثمار المتوقع ",
+      "growthExitROI": "عائد الاستثمار للخروج من النمو *",
+      "enterGrowthExitROI": "أدخل عائد الخروج للنمو",
+      "rentalExitROI": "عائد الاستثمار عند الخروج من الإيجار *",
+      "enterRentalExitROI": "أدخل عائد الخروج للإيجار",
+      "expectedRentalDate": "تاريخ الإيجار المتوقع *",
+      "selectExpectedRentalDate": "اختر تاريخ الإيجار المتوقع",
+      "downPaymentsSection": "الدفعات المقدمة",
+      "downPaymentLabel": "الدفعة {{orderText}} *",
+      "downPaymentAmountPlaceholder": "أدخل المبلغ",
+      "downPaymentDateLabel": "التاريخ *",
+      "downPaymentDatePlaceholder": "اختر التاريخ",
+      "sharePrice": "سعر السهم *",
+      "enterSharePrice": "أدخل سعر السهم",
+      "noROIRequired": "لا يوجد عائد استثمار مطلوب",
+      "paymentPlanLabel": "خطة الدفع *",
+      "selectPaymentPlan": "حدد خطة الدفع",
+      "propertyStageLabel": "مرحلة الملكية *",
+      "selectPropertyStage": "اختر مرحلة الملكية",
+      "deliveryDateLabel": "تاريخ التسليم او الوصول *",
+      "selectDeliveryDate": "حدد تاريخ التسليم",
+      "amount": "القيمة",
+      "paymentDateOptional": "تاريخ الدفع",
+      "enterPaymentDate": "أدخل تاريخ الدفع",
+      "addSubtitle": "أضف عنوانًا فرعيًا",
+      "recurringMonthlyPayment": "الدفع الشهري المتكرر",
+      "addAnotherPayment": "أضف دفعة أخرى",
+      "investmentDetails": "تفاصيل الاستثمار",
+      "propertyDetails": "تفاصيل العقار",
+      "financialModel": "النموذج المالي",
+      "paymentPlan": "خطة الدفع",
+      "investmentSetup": "إعداد الاستثمار",
+      "showInAppLabel": "إظهار تاريخ التسليم في تطبيق الجوال؟",
+      "downPaymentPlan": "دفعة مبدئية",
+      "search": "يبحث...",
+      "notFound": "لم يتم العثور على..."
+    },
+    "errors": {
+      "nameEnRequired": "اسم العقار بالإنجليزية مطلوب",
+      "nameArRequired": "اسم العقار بالعربية مطلوب",
+      "aboutEnRequired": "وصف العقار بالإنجليزية مطلوب",
+      "aboutArRequired": "وصف العقار بالعربية مطلوب",
+      "coverPhotoRequired": "صورة الغلاف مطلوبة",
+      "totalSharesRequired": "إجمالي الأسهم مطلوب",
+      "unitPriceRequired": "سعر الوحدة مطلوب",
+      "exitStrategyRequired": "استراتيجية الخروج مطلوبة",
+      "cityRequired": "المدينة مطلوبة",
+      "areaRequired": "المنطقة مطلوبة",
+      "developerRequired": "المطور مطلوب",
+      "downPaymentRequired": "الدفعة الأولى مطلوبة",
+      "planDurationRequired": "مدة الخطة مطلوبة",
+      "maintenanceFeesRequired": "رسوم الصيانة مطلوبة",
+      "investmentModelRequired": "نموذج الاستثمار مطلوب",
+      "installmentFrequencyRequired": "تكرار الأقساط مطلوب",
+      "downPaymentsRequired": "مطلوب الدفعة الأولى",
+      "paymentAmountRuqired": "دفع المبلغ هو Ruqired",
+      "paymentAmountRequired": "مطلوب دفع المبلغ",
+      "EstimatedROIRequired": "معدل العائد المتوقع مطلوب ويجب أن يكون أكبر من أو يساوي 0.",
+      "GrowthExitROIRequired": "معدل العائد عند الخروج للنمو يجب أن يكون أكبر من أو يساوي 0.",
+      "RentalExitROIRequired": "معدل العائد عند الخروج للإيجار يجب أن يكون أكبر من أو يساوي 0.",
+      "ExpectedRentalDateRequired": "تاريخ الإيجار المتوقع مطلوب.",
+      "ExitDateRequired": "تاريخ الخروج مطلوب.",
+      "sharePriceRequired": "سعر السهم مطلوب",
+      "dateRequired": "التاريخ مطلوب",
+      "paymentPlanRequired": "مطلوب خطة الدفع",
+      "paymentPlanIsRequired": "مطلوب خطة الدفع",
+      "propertyStageRequired": "مرحلة الملكية مطلوبة",
+      "deliveryDateRequired": "مطلوب معرف تاريخ التسليم",
+      "paymentTypeRequired": "نوع الدفع مطلوب"
+    },
+    "options": {
+      "exitStrategy": {
+        "fixedTerm": "مدة ثابتة",
+        "capitalAppreciation": "زيادة رأس المال %"
+      },
+      "city": {
+        "cairo": "القاهرة",
+        "alexandria": "الإسكندرية",
+        "giza": "الجيزة",
+        "luxor": "الأقصر"
+      },
+      "area": {
+        "newCairo": "القاهرة الجديدة",
+        "maadi": "المعادي",
+        "nasrCity": "مدينة نصر",
+        "zamalek": "الزمالك"
+      },
+      "developer": {
+        "eastDelta": "دلتا الشرقية",
+        "sodic": "سوديك",
+        "palmHills": "بالم هيلز",
+        "orascom": "أوراسكوم"
+      },
+      "investmentModel": {
+        "flip": "تداول سريع",
+        "rental": "إيجار",
+        "buyAndHold": "شراء والاحتفاظ"
+      },
+      "installmentFrequency": {
+        "monthly": "شهري",
+        "quarterly": "ربع سنوي",
+        "yearly": "سنوي"
+      }
+    },
+    "Prices": "أسعار العقار",
+    "removeProperty": "حذف الملكية",
+    "steatyGrowth": "النمو البطيء",
+    "QuickGain": "مكاسب سريعة",
+    "PaymentPlan": "خطة الدفع",
+    "placeholder": {
+      "enterSubTitleEn": "أدخل العنوان الفرعي",
+      "enterSubTitleAr": "أدخل العنوان الفرعي"
+    },
+    "propertyValue": "قيمة العقار",
+    "savedAsDraft": "تم حفظ العقار كمسودة",
+    "savedConfirmation": {
+      "title": "تم حفظ العقار بنجاح",
+      "description": "تم حفظ العقار كمسودة. يمكن إضافة الصور الآن أو في أي وقت قبل النشر.",
+      "addImagesButton": "إضافة صور العقار",
+      "addLaterButton": "إضافة الصور لاحقًا",
+      "hint": "يمكنك رفع الصور أو إعادة ترتيبها أو تغيير صورة الغلاف في أي وقت قبل النشر."
+    },
+    "assignImages": "تعيين الصور",
+    "card": {
+      "noImagesUploaded": "لم يتم رفع أي صور",
+      "totalPropertyValue": "إجمالي قيمة العقار",
+      "expAnnualROI": "العائد السنوي المتوقع",
+      "sharePrice": "سعر السهم",
+      "totalShares": "إجمالي الأسهم",
+      "initialPropertyValue": "القيمة الأولية للعقار",
+      "initialInvestment": "الاستثمار الأولي",
+      "monthlyInst": "القسط الشهري",
+      "funded": "ممول",
+      "sharesAvailable": "سهم متاح",
+      "notLiveYet": "غير نشط بعد",
+      "exitedPropertyValue": "قيمة العقار المنتهي",
+      "exitedROI": "العائد المنتهي",
+      "purchasePrice": "سعر الشراء",
+      "exitedDate": "تاريخ الانتهاء",
+      "exitedWithROI": "تم الخروج بعائد استثمار +{{roi}}% في {{months}} أشهر",
+      "imagesMissing": "الصور مفقودة",
+      "documentsMissing": "المستندات مفقودة",
+      "annualReturnsMissing": "العوائد السنوية مفقودة",
+      "paymentPlanMissing": "خطة الدفع مفقودة",
+      "monthlyInstallments": "قسط شهري",
+      "propertyValue": "إجمالي قيمة العقار",
+      "currentPropertyValue": "قيمة العقار الحالية",
+      "totalROI": "إجمالي عائد الاستثمار",
+      "funding": "ممولة بالكامل في 6 أيام"
+    },
+    "publish": {
+      "title": "نشر العقار",
+      "description": "هل أنت متأكد من أنك تريد نشر هذا العقار؟",
+      "success": "تم نشر العقار بنجاح",
+      "validationError": "معلومات مطلوبة مفقودة",
+      "validationDescription": "يرجى إكمال التالي قبل النشر:",
+      "requirements": {
+        "images": "الصور",
+        "paymentPlans": "خطط الدفع",
+        "annualReturns": "العوائد السنوية المتوقعة (الربح السريع/النمو المستقر)",
+        "documents": "المستندات",
+        "documentFiles": "ملفات المستندات",
+        "prices": "أسعار العقار",
+        "pricesMinimum": "أسعار العقار (على الأقل سجلين)",
+        "timelines": "الجداول الزمنية للعقار"
+      },
+      "successMessage": "يتم استيفاء جميع المتطلبات. \nالملكية جاهزة للنشر."
+    },
+    "ExitQuick": "تفاصيل العائد",
+    "ExitQuickDescription": "تحديد قيم العائد النهائي للسهم الواحد. \nيتم احتساب النسب تلقائيا.",
+    "basePriceNoROI": "السعر الأساسي (لا يوجد عائد)"
+  },
+  "developer": {
+    "form": {
+      "uploadCover": "رفع شعار المطور",
+      "nameEn": "اسم المطور (بالإنجليزية) *",
+      "enterNameEn": "أدخل اسم المطور بالإنجليزية",
+      "nameAr": "اسم المطور (بالعربية) *",
+      "enterNameAr": "أدخل اسم المطور بالعربية",
+      "descrptionEn": "الوصف (بالإنجليزية) *",
+      "enterDescrptionEn": "أدخل وصف المطور بالإنجليزية",
+      "descrptionAr": "الوصف (بالعربية) *",
+      "enterDescrptionAr": "أدخل وصف المطور بالعربية",
+      "imageLable": "صورة المطور *"
+    },
+    "errors": {
+      "nameEnRequired": "الاسم بالإنجليزية مطلوب",
+      "nameArRequired": "الاسم بالعربية مطلوب",
+      "descrptionEnRequired": "الوصف بالإنجليزية مطلوب",
+      "descrptionArRequired": "الوصف بالعربية مطلوب",
+      "nameEnMin": "يجب أن يكون الاسم بالإنجليزية 3 أحرف على الأقل",
+      "nameArMin": "يجب أن يكون الاسم بالعربية 3 أحرف على الأقل",
+      "descrptionEnMin": "يجب أن يتكون الوصف باللغة الإنجليزية من 3 أحرف على الأقل",
+      "descrptionArMin": "يجب أن يكون الوصف باللغة العربية 3 أحرف على الأقل",
+      "fileSizeMax": "حجم الملف يجب ان يكون اقل من 5 ميجا",
+      "maxImages": "يمكنك تحميل صورة واحدة كحد أقصى",
+      "fileRequired": "الرجاء رفع صورة"
+    },
+    "addNewDeveloper": "إضافة مطور جديد",
+    "addDeveloper": "إضافة مطور",
+    "editDeveloper": "تعديل المطور",
+    "description": "الوصف",
+    "createdOn": "تاريخ الانشاء",
+    "name": "الاسم"
+  },
+  "socialMedia": {
+    "addSocialMedia": "إضافة رابط تواصل اجتماعي",
+    "addNewSocialMedia": "إضافة رابط تواصل اجتماعي جديد",
+    "editSocialMedia": "تعديل رابط التواصل الاجتماعي",
+    "name": "الاسم",
+    "url": "الرابط",
+    "createdOn": "تاريخ الإنشاء",
+    "form": {
+      "iconLabel": "أيقونة وسائل التواصل الاجتماعي *",
+      "nameEn": "الاسم (بالإنجليزية) *",
+      "enterNameEn": "أدخل الاسم بالإنجليزية",
+      "nameAr": "الاسم (بالعربية) *",
+      "enterNameAr": "أدخل الاسم بالعربية",
+      "url": "الرابط *",
+      "enterUrl": "أدخل الرابط"
+    },
+    "errors": {
+      "fileSizeMax": "يجب أن يكون حجم الملف أقل من 5 ميجابايت",
+      "maxImages": "يمكنك تحميل صورة واحدة كحد أقصى",
+      "fileRequired": "يرجى رفع الأيقونة",
+      "nameEnRequired": "الاسم باللغة الإنجليزية مطلوب",
+      "nameEnMin": "يجب ألا يقل الاسم باللغة الإنجليزية عن 3 أحرف",
+      "nameArRequired": "الاسم باللغة العربية مطلوب",
+      "nameArMin": "يجب ألا يقل الاسم باللغة العربية عن 3 أحرف",
+      "urlRequired": "الرابط مطلوب",
+      "urlInvalid": "يرجى إدخال رابط صحيح يبدأ بـ http أو www"
+    }
+  },
+  "admin": {
+    "addNewAdmin": "إضافة مشرف جديد",
+    "errors": {
+      "nameEnRequired": "الاسم الأول (بالإنجليزية) مطلوب",
+      "nameEnMin": "الحد الأدنى 3 أحرف",
+      "nameArRequired": "الاسم الأخير (بالعربية) مطلوب",
+      "nameArMin": "الحد الأدنى 3 أحرف",
+      "phoneRequired": "رقم الهاتف مطلوب",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "صيغة البريد الإلكتروني غير صحيحة",
+      "phoneInvalid": "رقم هاتف محمول مصري غير صالح",
+      "firstNameRequired": "الاسم الأول مطلوب",
+      "firstNameMin": "الحد الأدنى 3 أحرف",
+      "lastNameMin": "الحد الأدنى 3 أحرف",
+      "lastNameRequired": "الاسم الأخير مطلوب"
+    },
+    "form": {
+      "firstName": "الاسم الأول *",
+      "enterFirstName": "أدخل الاسم الأول",
+      "lastName": "اسم العائلة *",
+      "enterLastName": "أدخل الاسم الأخير",
+      "email": "بريد إلكتروني *",
+      "enterEmail": "أدخل البريد الإلكتروني",
+      "phoneNumber": "رقم التليفون *",
+      "enterPhoneNumber": "أدخل رقم الهاتف"
+    },
+    "resendEmail": "إعادة إرسال البريد الإلكتروني"
+  },
+  "title": {
+    "FAQs": "الأسئلة الشائعة",
+    "propertiesList": "قائمة العقارات",
+    "Developers": "المطورين",
+    "HowToUse": "كيفية استخدام التطبيق",
+    "HelpSupport": "تواصل او المساعده",
+    "SocialMedia": "وسائل التواصل الاجتماعي",
+    "About": "حول Homes&",
+    "privacyPolicy": "خصوصية",
+    "setting": "الإعدادات العام",
+    "Admins": "قائمة المشرفين"
+  },
+  "search": {
+    "SearchbyFAQName": "البحث حسب اسم الأسئلة الشائعة...",
+    "byPropertyName": "البحث حسب اسم العقار",
+    "ByDeveloperName": "حسب اسم المطور...",
+    "byDocumentName": "البحث حسب اسم المستند",
+    "BySocialMediaName": "حسب اسم منصة التواصل الاجتماعي...",
+    "ByGuidelineTitle": "البحث حسب العنوان التوجيهي",
+    "searchByName": "البحث بواسطة..."
+  },
+  "message": {
+    "FAQcreatedsuccessfully": "تم إنشاء سؤال شائعة بنجاح",
+    "FAQeditsuccessfully": "تم تحرير الأسئلة الشائعة بنجاح",
+    "Policyeditsuccessfully": "تم تعديل السياسة بنجاح",
+    "ContactUpdatedSuccessfully": "تم تحديث جهة الاتصال بنجاح",
+    "LicenseEditSuccessfully": "تم إنشاء الترخيص أو تحديثه بنجاح",
+    "Admincreatedsuccessfully": "تم إنشاء المشرف بنجاح",
+    "Rolecreatedsuccessfully": "تم إنشاء الدور بنجاح!",
+    "Roleeditedsuccessfully": "تم تعديل الدور بنجاح!"
+  },
+  "table": {
+    "questions": "الاسألة الشائعة",
+    "title": "العنوان",
+    "subHeading": "عنوان فرعي",
+    "readTime": "مدة القراءة",
+    "date": "التاريخ",
+    "actions": "الاجراءات",
+    "id": "الرقم",
+    "createdOn": "تاريخ الانشاء",
+    "price": "السعر",
+    "legalName": "اسم المستند",
+    "type": "النوع",
+    "paymentName": "اسم الدفعة",
+    "status": "الحالة",
+    "email": "البريد الإلكتروني",
+    "phoneNumber": "رقم الموبيل",
+    "lastName": "الاسم الاخير",
+    "firstName": "الاسم الاول",
+    "adminName": "اسماء المشرفين",
+    "dueDate": "تاريخ الاستحقاق",
+    "paymentValue": "قيمة الدفعة",
+    "name": "الاسم",
+    "capitalAppreciation": "زيادة رأس المال %",
+    "time": "الوقت",
+    "paymentType": "نوع الدفع"
+  },
+  "faq": {
+    "forms": {
+      "buttonLabels": {
+        "editFaq": "تعديل الأسئلة الشائعة",
+        "deleteFaq": "إزالة الأسئلة الشائعة"
+      }
+    }
+  },
+  "showing": "عرض {{start}} إلى {{end}} من أصل {{total}} نتيجة",
+  "date": {
+    "Placeholder": "حدد التاريخ"
+  },
+  "Reset": "إعادة ضبط",
+  "buttons": {
+    "cancel": "الغاء",
+    "save": "حفظ",
+    "Remove": "حذف",
+    "confirm": "تأكيد",
+    "continue": "التالي",
+    "back": "رجوع",
+    "finish": "انهي",
+    "confirem": "تأكيد",
+    "remove": "ازالة",
+    "next": "التالي",
+    "close": "اغلاق",
+    "saving": "يحفظ",
+    "addValuation": "إضافة التقييم",
+    "exitProperty": "تأكيد الخروج",
+    "addExit": "إضافة تسجيل أخرى"
+  },
+  "File size must be less than 4MB": "يجب أن يكون حجم الملف أقل من 4 ميجابايت",
+  "You can upload a maximum of 1 images": "يمكنك تحميل صورة واحدة كحد أقصى",
+  "Upload developer logo": "تحميل شعار المطور",
+  "Developer has been created successfuly": "تم إنشاء المطور بنجاح",
+  "Developer has been removed successfuly": "تمت إزالة المطور بنجاح",
+  "Developer has been edited successfuly": "تم تحرير المطور بنجاح",
+  "Social media has been created successfully": "تم إنشاء رابط التواصل الاجتماعي بنجاح",
+  "Social media has been removed successfully": "تم حذف رابط التواصل الاجتماعي بنجاح",
+  "Social media has been edited successfully": "تم تعديل رابط التواصل الاجتماعي بنجاح",
+  "placeholder": {
+    "selectDate": "حدد التاريخ"
+  },
+  "about": "حول Homes&",
+  "sideBar": {
+    "SocialMedia": "التواصل الاجتماعي",
+    "ContactSupport": "تواصل او مساعده",
+    "adminList": "قائمة المشرفين",
+    "paymentPlanType": "نوع خطة الدفع"
+  },
+  "App document has been created successfully": "تم إنشاء مستند التطبيق بنجاح",
+  "App document has been edited successfully": "تم تحرير مستند التطبيق بنجاح",
+  "App document has been removed successfully": "تمت إزالة مستند التطبيق بنجاح",
+  "Property has been created successfully": "تم إنشاء الخاصية بنجاح",
+  "Property has been removed successfully": "تمت إزالة الخاصية بنجاح",
+  "Property document has been created successfully": "تم إنشاء وثيقة الملكية بنجاح",
+  "Property document has been edited successfully": "تم تحرير وثيقة الملكية بنجاح",
+  "Property document has been removed successfully": "تمت إزالة وثيقة الملكية بنجاح",
+  "Property price has been created successfully": "تم إنشاء سعر العقار بنجاح",
+  "Property price has been removed successfully": "تمت إزالة سعر العقار بنجاح",
+  "Edit Property Legal Document": "تحرير الوثيقة القانونية للملكية",
+  "price": {
+    "editPrice": "تحرير السعر",
+    "removePrice": "إزالة السعر"
+  },
+  "Document": {
+    "removeDocument": "إزالة المستند"
+  },
+  "paymentType": {
+    "form": {
+      "nameEnLabel": "الاسم (بالإنجليزية) *",
+      "nameArLabel": "الاسم (بالعربية) *",
+      "nameEnPlaceholder": "أدخل اسم نوع الدفع باللغة الإنجليزية",
+      "nameArPlaceholder": "أدخل اسم نوع الدفع باللغة العربية",
+      "nameEnRequired": "الاسم باللغة الإنجليزية مطلوب",
+      "nameEnMin": "يجب ألا يقل الاسم باللغة الإنجليزية عن حرفين",
+      "nameEnMax": "يجب ألا يزيد الاسم باللغة الإنجليزية عن 100 حرف",
+      "nameArRequired": "الاسم باللغة العربية مطلوب",
+      "nameArMin": "يجب ألا يقل الاسم باللغة العربية عن حرفين",
+      "nameArMax": "يجب ألا يزيد الاسم باللغة العربية عن 100 حرف"
+    }
+  },
+  "appDocument": {
+    "form": {
+      "fileLabel": "مستند قابل للتنزيل*",
+      "nameEnLabel": "الاسم بالإنجليزية *",
+      "nameEnPlaceholder": "أدخل الاسم بالإنجليزية",
+      "nameArLabel": "الاسم بالعربية *",
+      "nameArPlaceholder": "أدخل الاسم بالعربية",
+      "typeLabel": "النوع*",
+      "typePlaceholder": "اختر النوع",
+      "descriptionEnLabel": "وصف الملفات القابلة للتنزيل (إنجليزي)",
+      "descriptionEnPlaceholder": "أدخل الوصف بالإنجليزية",
+      "descriptionArLabel": "وصف الملفات القابلة للتنزيل (عربي)",
+      "descriptionArPlaceholder": "أدخل الوصف بالعربية",
+      "types": {
+        "legalDocument": "مستند قانوني",
+        "legalStatement": "بيان قانوني"
+      }
+    },
+    "errors": {
+      "typeRequired": "نوع المستند مطلوب.",
+      "nameEnRequired": "الاسم باللغة الإنجليزية مطلوب.",
+      "nameArRequired": "الاسم باللغة العربية مطلوب.",
+      "descriptionEnRequired": "الوصف باللغة الإنجليزية مطلوب.",
+      "descriptionArRequired": "الوصف باللغة العربية مطلوب.",
+      "descriptionEnMin": "يجب أن يكون الوصف باللغة الإنجليزية 3 أحرف على الأقل.",
+      "descriptionArMin": "يجب أن يكون الوصف باللغة العربية 3 أحرف على الأقل.",
+      "fileRequired": "ملف المستند القانوني مطلوب."
+    }
+  },
+  "propertyDocument": {
+    "dialogTitle": "المستندات القانونية للعقار",
+    "form": {
+      "fileLabel": "وثيقة قانونية الملكية",
+      "nameEnLabel": "الاسم بالإنجليزية *",
+      "nameEnPlaceholder": "أدخل الاسم بالإنجليزية",
+      "nameArLabel": "الاسم بالعربية *",
+      "nameArPlaceholder": "أدخل الاسم بالعربية",
+      "typeLabel": "النوع*",
+      "types": {
+        "legalDocument": "المستندات القانونية",
+        "legalStatement": "البيانات القانونية"
+      },
+      "descriptionEnLabel": "وصف المستند بالإنجليزية",
+      "descriptionEnPlaceholder": "أدخل الوصف بالإنجليزية",
+      "descriptionArLabel": "وصف المستند بالعربية",
+      "descriptionArPlaceholder": "أدخل الوصف بالعربية"
+    },
+    "errors": {
+      "nameEnRequired": "الاسم بالإنجليزية مطلوب",
+      "nameArRequired": "الاسم بالعربية مطلوب",
+      "fileRequired": "مستند العقار مطلوب",
+      "typeRequired": "نوع المستند مطلوب"
+    }
+  },
+  "cancel": "يلغي",
+  "Search by name": "البحث بالاسم...",
+  "Downloadable Files": "الملفات القابلة للتحميل",
+  "Add Legal Document": "إضافة وثيقة قانونية",
+  "Property Documents": "وثائق الملكية",
+  "Investor Guidelines": "إرشادات المستثمر",
+  "Privacy Policy": "سياسة الخصوصية",
+  "Log out": "تسجيل الخروج",
+  "roperty": {
+    "errors": {
+      "Dateisrequired": "التاريخ مطلوب"
+    }
+  },
+  "Unsaved Changes": "التغييرات غير المحفوظة",
+  "You have unsaved changes Are you sure you want to discard them": "لديك تغييرات غير محفوظة هل أنت متأكد من أنك تريد تجاهلها",
+  "hintUrl": "ملاحظة: يجب أن يبدأ الرابط بـ \\\"www\\\" أو \\\"http://\\\" أو \\\"https://\\\"",
+  "StartTyping": "ابدأ بالكتابة...",
+  "minValue": "يجب أن تكون القيمة على الأقل 0%'",
+  "maxValue": "لا يمكن أن تتجاوز القيمة 100%",
+  "invalidPhoneNumber": "رقم الهاتف غير صالح",
+  "errors": {
+    "descrptionMax": "يجب أن يكون الوصف أقل من 300 حرف",
+    "nameMax": "يجب أن يكون الاسم أقل من 300 حرف",
+    "fieldMax": "يجب أن يكون الحقل أقل من 300 حرف",
+    "readTimeMin": "الحد الأدنى هو 1 دقيقة",
+    "readTimeMax": "الحد الأقصى هو 60 دقيقة",
+    "readTimeRequired": "وقت القراءة مطلوب",
+    "titleEnRequired": "العنوان الإنجليزي مطلوب",
+    "titleEnMin": "يجب أن يحتوي العنوان الإنجليزي على 2 أحرف على الأقل",
+    "titleEnMax": "يجب ألا يزيد العنوان الإنجليزي عن 200 حرف",
+    "titleArRequired": "العنوان العربي مطلوب",
+    "titleArMin": "يجب أن يحتوي العنوان العربي على 2 أحرف على الأقل",
+    "titleArMax": "يجب ألا يزيد العنوان العربي عن 200 حرف",
+    "headerEnRequired": "العنوان الفرعي الإنجليزي مطلوب",
+    "headerEnMin": "يجب أن يحتوي العنوان الفرعي الإنجليزي على 2 أحرف على الأقل",
+    "headerEnMax": "يجب ألا يزيد العنوان الفرعي الإنجليزي عن 200 حرف",
+    "headerArRequired": "العنوان الفرعي العربي مطلوب",
+    "headerArMin": "يجب أن يحتوي العنوان الفرعي العربي على 2 أحرف على الأقل",
+    "headerArMax": "يجب ألا يزيد العنوان الفرعي العربي عن 200 حرف",
+    "imageTitleEnRequired": "عنوان الصورة الإنجليزي مطلوب",
+    "imageTitleEnMin": "يجب أن يحتوي عنوان الصورة الإنجليزي على 2 أحرف على الأقل",
+    "imageTitleEnMax": "يجب ألا يزيد عنوان الصورة الإنجليزي عن 200 حرف",
+    "imageTitleArRequired": "عنوان الصورة العربي مطلوب",
+    "imageTitleArMin": "يجب أن يحتوي عنوان الصورة العربي على 2 أحرف على الأقل",
+    "imageTitleArMax": "يجب ألا يزيد عنوان الصورة العربي عن 200 حرف",
+    "stepTitleEnRequired": "عنوان الخطوة بالإنجليزية مطلوب",
+    "stepTitleEnMin": "يجب أن يحتوي عنوان الخطوة الإنجليزية على 2 أحرف على الأقل",
+    "stepTitleEnMax": "يجب ألا يزيد عنوان الخطوة الإنجليزية عن 200 حرف",
+    "stepTitleArRequired": "عنوان الخطوة بالعربية مطلوب",
+    "stepTitleArMin": "يجب أن يحتوي عنوان الخطوة العربية على 2 أحرف على الأقل",
+    "stepTitleArMax": "يجب ألا يزيد عنوان الخطوة العربية عن 200 حرف",
+    "stepDescEnRequired": "وصف الخطوة بالإنجليزية مطلوب",
+    "stepDescEnMin": "يجب أن يحتوي وصف الخطوة الإنجليزية على 3 أحرف على الأقل",
+    "stepDescEnMax": "يجب ألا يزيد وصف الخطوة الإنجليزية عن 500 حرف",
+    "stepDescArRequired": "وصف الخطوة بالعربية مطلوب",
+    "stepDescArMin": "يجب أن يحتوي وصف الخطوة العربية على 3 أحرف على الأقل",
+    "stepDescArMax": "يجب ألا يزيد وصف الخطوة العربية عن 500 حرف",
+    "onlyArabic": "يجب أن يحتوي الحقل (العربية) على حروف باللغة العربية فقط.",
+    "onlyEnglish": "يجب أن يحتوي الحقل (الإنجليزية) على أحرف باللغة الإنجليزية فقط.",
+    "fieldDescMax": "يجب أن يكون الحقل أقل من 5000 حرف"
+  },
+  "contactUs": "اتصل بنا",
+  "searchCountry": "بحث عن الدولة...",
+  "fileTypeNotAllowed": "نوع الملف غير مسموح",
+  "footer_license": "رخصة",
+  "buttonLabels": {
+    "resendAgain": "إعادة الإرسال مرة أخرى",
+    "resendEmail": "إعادة إرسال كلمة المرور"
+  },
+  "Invalid email address": "عنوان البريد الإلكتروني غير صالح",
+  "Email is required": "البريد الإلكتروني مطلوب",
+  "SearchByPaymentName": "البحث حسب اسم الدفع .....",
+  "questions": {
+    "buttons": {
+      "cancel": "الغاء"
+    }
+  },
+  "Select Status": "حدد الحالة",
+  "downPayment": {
+    "isRecurring": "إذا تم التفعيل، سيتم عرض هذه الدفعة في تطبيق الموبيل على أنها \"تبدأ من [التاريخ]."
+  },
+  "Document has been edited successfully": "تم تحرير المستند بنجاح",
+  "Payment Plan Type": "نوع خطة الدفع",
+  "Add Payment Type": "أضف نوع الدفع",
+  "Search by Payment Type Name": "البحث حسب اسم نوع الدفع",
+  "Payment Type has been removed successfully": "تمت إزالة نوع الدفع بنجاح",
+  "uploadingImages": "جارٍ رفع الصور",
+  "imagesUploadedSuccessfully": "تم رفع الصور بنجاح",
+  "addPropertyImages": "إضافة صور العقار",
+  "closeModal": "إغلاق",
+  "dontCloseWindow": "من فضلك لا تغلق هذه النافذة أثناء رفع الصور.",
+  "imagesReady": "الصور جاهزة للاستخدام.",
+  "image": "صورة",
+  "images": "صور",
+  "uploaded": "تم رفعها",
+  "cover": "الصورة الرئيسية",
+  "done": "تم",
+  "uploadDescription": "قم برفع صور العقار. يمكنك إعادة ترتيب الصور واختيار الصورة الرئيسية.",
+  "clickToUpload": "اضغط لرفع الصور",
+  "selectFiles": "اختيار الملفات",
+  "addMoreImages": "إضافة المزيد من الصور",
+  "back": "رجوع",
+  "saveChanges": "حفظ التغييرات",
+  "validation": {
+    "maxImagesAtOnce": "يمكنك رفع {{count}} صور كحد أقصى في المرة الواحدة.",
+    "invalidFileType": "الملف {{name}} ليس من أنواع الصور المدعومة.",
+    "fileTooLarge": "الملف {{name}} يتجاوز الحد الأقصى للحجم المسموح وهو {{size}}."
+  },
+  "description": "يتم حفظ الخاصية كمسودة. \nيمكن إضافة الصور الآن أو في أي وقت قبل النشر.",
+  "addImagesButton": "إضافة صور العقار",
+  "addLaterButton": "إضافة الصور في وقت لاحق",
+  "hint": "يمكنك تحميل صورة الغلاف أو إعادة ترتيبها أو تغييرها في أي وقت قبل النشر.",
+  "searchPlaceholder": "بحث عن العقار ....",
+  "No properties found": "لم يتم العثور على عقارات",
+  "No properties found description": "لم نتمكن من العثور على أي عقارات مطابقة لمعايير البحث الخاصة بك. \nحاول تعديل عوامل التصفية أو مصطلحات البحث.",
+  "value": {
+    "dialogTitle": "الجدول الزمني للتقييم",
+    "dialogDescription": "تتبع تقييمات العقارات وأسعار الأسهم وإيرادات الإيجار مع مرور الوقت.",
+    "valutionUpdate": "إضافة تحديث التقييم",
+    "placeholders": {
+      "selectDate": "حدد التاريخ",
+      "enterValue": "أدخل قيمة العقار",
+      "enterTotalROI": "أدخل إجمالي قيمة العائد على الاستثمار٪"
+    },
+    "labels": {
+      "date": "تاريخ التقييم *",
+      "value": "قيمة العقار *",
+      "totalROI": "إجمالي قيمة عائد الاستثمار*",
+      "sharePrice": "سعر السهم (محسوب تلقائيًا)",
+      "totalShares": "إجمالي الأسهم"
+    },
+    "errors": {
+      "dateRequired": "تاريخ التقييم مطلوب",
+      "valueRequired": "قيمة العقار مطلوبة",
+      "totalROIRequired": "مطلوب إجمالي عائد الاستثمار",
+      "valueMin": "يجب أن تكون القيمة أكبر من 1",
+      "totalROIMin": "يجب ان تزيد نسبة إجمالي العائد على الاستثمار عن 0.01",
+      "totalROIMax": "يجب أن يكون إجمالي العائد على الاستثمار أقل من 100"
+    },
+    "descriptions": {
+      "sharePrice": "يتم حساب هذه القيمة تلقائيًا بناءً على إجمالي قيمة العقار ÷ إجمالي المشاركات.",
+      "rentCollectionNotStarted": "تحصيل الإيجار لم يبدأ بعد",
+      "rentCollectionNotStartedSub": "سيتم احتسابه عند بدء تحصيل الإيجار."
+    }
+  },
+  "valuation": {
+    "loadingValuations": "جاري تحميل التقييمات...",
+    "failedToLoad": "فشل في تحميل التقييمات",
+    "noValuations": "لم يتم العثور على تقييمات",
+    "valuationHistory": "سجل التقييمات",
+    "date": "التاريخ",
+    "propertyValue": "قيمة العقار",
+    "capitalGrowth": "نمو رأس المال",
+    "rentYield": "عائد الإيجار",
+    "rentGrowth": "نمو الإيجار",
+    "rentStatus": "حالة الإيجار",
+    "latest": "الأحدث",
+    "generated": "تم إنشاؤها",
+    "notStarted": "لم يبدأ",
+    "rentalPerformance": "أداء الإيجار",
+    "generatingRent": "جاري توليد الإيجار",
+    "totalRent": "إجمالي الإيجار",
+    "enterTotalRent": "أدخل إجمالي الإيجار",
+    "rentPerShare": "إيجار لكل سهم (محسوب تلقائياً)",
+    "perShare": "لكل سهم",
+    "rentCollectionNotStarted": "لم يبدأ تحصيل الإيجار بعد",
+    "totalPropertyROI": "إجمالي عائد الاستثمار للعقار",
+    "totalPropertyROIDescription": "يمثل هذا إجمالي عائد الاستثمار الذي حققه العقار (زيادة رأس المال وعائد الإيجار) وسيتم عرضه للمستثمرين في تطبيق الهاتف المحمول.",
+    "valuationTableDescription": "يمثل الإدخال الأخير التقييم الحالي الموضح عبر لوحة المعلومات وتطبيق الهاتف المحمول."
+  },
+  "roles": {
+    "Add New Role": "إضافة دور جديد",
+    "Roles": "الأدوار",
+    "RolesPermissions": "الأدوار و الصلاحيات",
+    "roleNameAr": "اسم الدور عربي",
+    "roleNameEn": "اسم الدور",
+    "roleName": "اسم الدور",
+    "form": {
+      "nameEn": "اسم الدور انجليزي*",
+      "nameAr": "اسم الدور عربي*"
+    },
+    "Review Submit": "مراجعة و إرسال",
+    "Select Permissions": "حدد الصلاحيات",
+    "Add Role": "أضف دور",
+    "Role": "الدور",
+    "Permissions": "الصلاحيات",
+    "Submit": "ارسال",
+    "searchByRole": "البحث حسب اسم الدور..",
+    "Review": "مراجعة",
+    "Export": "تصدير",
+    "noPermissionsSelected": "لم يتم تحديد أي صلاحيات",
+    "NoPermissionsSelected": "لم يتم تحديد أي صلاحيات"
+  },
+  "Login successful": "تم تسجيل الدخول بنجاح",
+  "Failed to login": "فشل تسجيل الدخول. \nيرجى التحقق من بيانات الاعتماد الخاصة بك.",
+  "Sign up successful": "تم التسجيل بنجاح",
+  "Cart has been updated successfully": "تم تحديث سلة التسوق بنجاح",
+  "Failed to update cart": "فشل تحديث سلة التسوق",
+  "Cart has been deleted successfully": "تم حذف سلة التسوق بنجاح",
+  "Failed to delete cart": "فشل في حذف سلة التسوق",
+  "Product has been created successfully": "تم إنشاء المنتج بنجاح",
+  "Failed to create product": "فشل في إنشاء المنتج"
+}

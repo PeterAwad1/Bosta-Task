@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Almarai:wght@300;400;700;800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Sora:wght@100..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  body {
+    background: white;
+  }
+  .no-print {
+    display: none;
+  }
+  @page {
+    margin: 1cm;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 95%; /* light gray background (#F2F2F2) */
+    --foreground: 0 0% 12%; /* dark gray text (#1E1E1E) */
+
+    --card: 0 0% 100%; /* pure white */
+    --card-foreground: 0 0% 12%; /* dark gray text */
+
+    --popover: 0 0% 100%; /* white */
+    --popover-foreground: 0 0% 12%; /* dark gray text */
+
+    --primary: 355 75% 56%; /* brand red (#E63946) */
+    --primary-foreground: 0 0% 100%; /* white */
+
+    --secondary: 0 0% 42%; /* medium gray (#6B6B6B) */
+    --secondary-foreground: 0 0% 100%; /* white */
+
+    --muted: 0 0% 95%; /* light gray (#F2F2F2) */
+    --muted-foreground: 0 0% 42%; /* medium gray */
+
+    --accent: 0 85% 85%; /* soft red/pink accent (#F9B8B8) */
+    --accent-foreground: 0 0% 12%; /* dark gray text */
+
+    --destructive: 0 64% 48%; /* error red */
+    --destructive-foreground: 0 0% 100%; /* white */
+
+    --border: 0 0% 85%; /* light gray border */
+    --input: 0 0% 85%; /* light gray input border */
+    --ring: 355 75% 56%; /* matches primary red */
+    --radius: 0.5rem;
+
+    /* === CHART COLORS === */
+    --chart-1: 110 61% 46%; /* success green */
+    --chart-2: 355 75% 56%; /* primary red */
+    --chart-3: 0 0% 42%; /* medium gray */
+    --chart-4: 200 56% 38%; /* cool blue accent (#2A6F97) */
+
+    /* === SIDEBAR === */
+    --sidebar-background: 0 0% 95%; /* light gray background */
+    --sidebar-foreground: 0 0% 12%; /* dark gray text */
+    --sidebar-primary: 355 75% 56%; /* brand red for highlights */
+    --sidebar-primary-foreground: 0 0% 100%; /* white text on primary */
+    --sidebar-accent: 0 85% 85%; /* soft red/pink for hover/active */
+    --sidebar-accent-foreground: 0 0% 12%; /* dark gray for contrast */
+    --sidebar-border: 0 0% 85%; /* light gray border */
+    --sidebar-ring: 355 75% 56%; /* red focus ring (matches brand) */
+
+    /* === PRIMARY RED SCALE === */
+    --primary-50: #fef2f2;
+    --primary-100: #fee2e2;
+    --primary-200: #fecaca;
+    --primary-300: #fca5a5;
+    --primary-400: #f87171;
+    --primary-500: #E63946; /* brand red */
+    --primary-600: #dc2626;
+    --primary-700: #b91c1c;
+    --primary-800: #991b1b;
+    --primary-900: #7f1d1d;
+
+    /* === NEUTRAL GRAY SCALE === */
+    --neutral-30: #F2F2F2; /* light gray backgrounds */
+    --neutral-50: #F2F2F2;
+    --neutral-100: #E0E0E0;
+    --neutral-200: #C4C4C4;
+    --neutral-300: #A8A8A8;
+    --neutral-400: #8C8C8C;
+    --neutral-500: #6B6B6B; /* medium gray */
+    --neutral-600: #555555;
+    --neutral-700: #404040;
+    --neutral-800: #2A2A2A;
+    --neutral-900: #1E1E1E; /* dark gray text */
+
+    /* === SECONDARY GRAY SCALE (same as neutral) === */
+    --secondary-30: #F2F2F2;
+    --secondary-50: #F2F2F2;
+    --secondary-100: #E0E0E0;
+    --secondary-200: #C4C4C4;
+    --secondary-300: #A8A8A8;
+    --secondary-400: #8C8C8C;
+    --secondary-500: #6B6B6B; /* medium gray */
+    --secondary-600: #555555;
+    --secondary-700: #404040;
+    --secondary-800: #2A2A2A;
+    --secondary-900: #1E1E1E; /* dark gray text */
+
+    --success-50: #e6f6ec;
+    --success-100: #b0e3c4;
+    --success-200: #8ad6a7;
+    --success-300: #54c37f;
+    --success-400: #33b866;
+    --success-500: #00a640;
+    --success-600: #00973a;
+    --success-700: #00762d;
+    --success-800: #005b23;
+    --success-900: #00461b;
+
+    --warning-50: #f7f6e6;
+    --warning-100: #e7e2b0;
+    --warning-200: #dbd48a;
+    --warning-300: #cac054;
+    --warning-400: #c0b433;
+    --warning-500: #b0a100;
+    --warning-600: #a09300;
+    --warning-700: #7d7200;
+    --warning-800: #615900;
+    --warning-900: #4a4400;
+
+    --error-50: #f6e6e6;
+    --error-100: #e3b0b0;
+    --error-200: #d68a8a;
+    --error-300: #c35454;
+    --error-400: #b83333;
+    --error-500: #b83333;
+    --error-600: #970000;
+    --error-700: #760000;
+    --error-800: #5b0000;
+    --error-900: #460000;
+
+    /* === INFO / COOL BLUE ACCENT === */
+    --info-50: #e8f2f7;
+    --info-100: #c4dceb;
+    --info-200: #a0c6df;
+    --info-300: #7cb0d3;
+    --info-400: #589ac7;
+    --info-500: #2A6F97; /* cool blue accent */
+    --info-600: #225a7a;
+    --info-700: #1a455d;
+    --info-800: #123040;
+    --info-900: #0a1b23;
+
+    /* === SOFT RED/PINK ACCENT === */
+    --accent-red-50: #fef5f5;
+    --accent-red-100: #fde8e8;
+    --accent-red-200: #fbd1d1;
+    --accent-red-300: #f9b8b8; /* soft red/pink accent */
+    --accent-red-400: #f79f9f;
+    --accent-red-500: #f58686;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+  .dark {
+    --sidebar-background: 0 0% 10%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 355 75% 56%; /* brand red */
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 20%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 355 75% 56%; /* red focus ring */
+  }
+}
+
+.container {
+  @apply px-4 md:px-6 lg:px-[72px];
+}
+
+/* For Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.3em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E63946;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #E63946;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::selection {
+  color: #ffffff;
+  background-color: #E63946;
+}
+
+/* Calendar */
+.fc-theme-standard .fc-scrollgrid {
+  @apply border-none;
+}
+
+.fc .fc-toolbar {
+  @apply !mb-3 max-sm:justify-start sm:justify-between;
+}
+
+.fc-toolbar-title {
+  @apply max-sm:!text-sm sm:!text-base;
+}
+
+.fc-toolbar-chunk {
+  @apply flex flex-nowrap;
+}
+
+.fc-toolbar-chunk div {
+  @apply flex flex-nowrap items-center text-center text-black;
+}
+
+#calendar {
+  width: 100%;
+  height: 100%;
+}
+
+th[class='fc-timegrid-axis'] {
+  background-color: #edeceb;
+}
+div[class='fc-license-message'] {
+  display: none;
+}
+
+.LanguagePopoverContent {
+  width: var(--radix-popover-trigger-width);
+  max-height: var(--radix-popover-content-available-height);
+}
+.fc-v-event {
+  background-color: var(--success-100);
+  border: 1px solid var(--success-100);
+  display: block;
+}
+
+.fc-event {
+  height: auto !important;
+  white-space: normal;
+  padding-top: 4px;
+  display: flexbox;
+  flex-direction: row;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: none;
+  margin-top: 4px;
+  margin-left: 3px;
+  margin-right: 0px;
+  margin-bottom: 4px;
+}
+/* .fc-view {
+  border: none;
+  border-top: 1px solid #c8c4c2;
+} */
+.fc .fc-timegrid-slot-label {
+  vertical-align: top;
+  color: #716762;
+}
+.fc-event-main {
+  height: fit-content;
+}
+.fc-timegrid-slot {
+  height: auto; /* Adjust slot height dynamically */
+}
+/* .fc-timegrid-event-harness-inset .fc-timegrid-event {
+  box-shadow: none;
+} */
+
+/* Leaflet */
+.leaflet-control-attribution {
+  display: none;
+}
+
+/* hidden scroll bar input with type number */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.CoachPopoverContent {
+  width: var(--radix-popover-trigger-width);
+  max-height: var(--radix-popover-content-available-height);
+}
+
+.fc .fc-scrollgrid-section > * {
+  border-right-width: 0px;
+}
+/* Hide scrollbar*/
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.recharts-legend-item .recharts-surface {
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+}
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* IE & Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.fc .fc-scroller-harness,
+.fc .fc-timegrid-body {
+  overflow: visible !important;
+}
+.fc-theme-standard .fc-scrollgrid,
+.fc-theme-standard .fc-scrollgrid-section body,
+.fc-theme-standard .fc-col-header,
+.fc-theme-standard .fc-timegrid-axis,
+.fc-theme-standard .fc-resource-area {
+  min-width: min-content !important;
+}
+
+/* .fc-theme-standard .fc-resource {
+  max-width: 150px !important;
+  width: 150px !important;
+} */
+
+/* Enable horizontal scrolling */
+.fc-scroller-harness {
+  overflow-x: auto !important;
+}
+/* Override for tablet (768px - 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .fc-theme-standard .fc-resource {
+    max-width: 150px !important;
+    width: 150px !important;
+  }
+}
+
+/* Override for mobile (767px and below) */
+@media (max-width: 767px) {
+  .fc-theme-standard .fc-resource {
+    max-width: 120px !important;
+    width: 120px !important;
+  }
+}
+.fc-scroller-harness {
+  overflow-x: auto !important;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+.ql-editor {
+  direction: ltr !important;
+  text-align: left !important;
+}
+.ql-toolbar {
+  direction: ltr !important;
+}
+
+.ql-toolbar.ql-snow {
+  border: 1px solid hsl(var(--input));
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.ql-container.ql-snow {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.custom-quill-rtl .ql-editor.ql-blank.ql-direction-rtl::before {
+  text-align: right !important;
+  direction: rtl !important;
+}

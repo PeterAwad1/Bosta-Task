@@ -1,0 +1,1186 @@
+{
+  "layout": {
+    "navbar": {}
+  },
+  "licenseFooter": {
+    "title": "Licensing statement",
+    "fields": {
+      "licenseStatementEN": {
+        "label": "License statement (English)*",
+        "placeholder": "Homes& is licensed by the Egyptian Financial Regulatory Authority (FRA)."
+      },
+      "licenseStatementAR": {
+        "label": "License statement (Arabic)*",
+        "placeholder": "Homes& is licensed by the Egyptian Financial Regulatory Authority (FRA)."
+      },
+      "linkLabelEN": {
+        "label": "License link label (English)*",
+        "placeholder": "Example: License FR001"
+      },
+      "linkLabelAR": {
+        "label": "License link label (Arabic)*",
+        "placeholder": "Example: License FR001"
+      },
+      "linkValue": {
+        "label": "License link URL*",
+        "placeholder": "https://www.fra.gov.eg"
+      }
+    },
+    "errors": {
+      "licenseStatementEN": {
+        "required": "English license statement is required.",
+        "min": "English license statement must be at least 3 characters."
+      },
+      "licenseStatementAR": {
+        "required": "Arabic license statement is required.",
+        "min": "Arabic license statement must be at least 3 characters."
+      },
+      "linkLabelEN": {
+        "required": "English link label is required.",
+        "min": "English link label must be at least 2 characters."
+      },
+      "linkLabelAR": {
+        "required": "Arabic link label is required.",
+        "min": "Arabic link label must be at least 2 characters."
+      },
+      "linkValue": {
+        "required": "License link is required.",
+        "invalid": "Please enter a valid link URL.",
+        "min": "License link must be at least 5 characters."
+      }
+    }
+  },
+  "paymentPlan": {
+    "labels": {
+      "dueDate": "Due date*",
+      "paymentNameEn": "Payment name (English)*",
+      "paymentNameAr": "Payment name (Arabic)*",
+      "paymentValue": "Payment value*",
+      "paymentType": "Payment Type *"
+    },
+    "placeholders": {
+      "selectDueDate": "Select due date",
+      "enterPaymentNameEn": "Enter payment name in English",
+      "enterPaymentNameAr": "Enter payment name in Arabic",
+      "enterPaymentValue": "Enter payment amount",
+      "selectPaymentType": "Select Payment Type"
+    },
+    "errors": {
+      "dueDateRequired": "Due date is required.",
+      "paymentNameEnRequired": "Payment name in English is required.",
+      "paymentNameEnMin": "Payment name in English must be at least 3 characters.",
+      "paymentNameArRequired": "Payment name in Arabic is required.",
+      "paymentNameArMin": "Payment name in Arabic must be at least 3 characters.",
+      "paymentValueRequired": "Payment value is required.",
+      "paymentValueMin": "Payment value must be greater than 0.",
+      "valueMustBeNumber": "value must be a number.",
+      "paymentTypeRequired": "Payment type is required"
+    },
+    "action": {
+      "editPaymentType": "Edit Payment Type",
+      "deletePaymentType": "Delete Payment Type"
+    }
+  },
+  "maxFilesOne": "You can only upload one file",
+  "fileUploadError": "An error occurred while uploading the file",
+  "fileTooMany": "You can only upload one file",
+  "contact": {
+    "title": "Contact Us",
+    "fields": {
+      "chatTimeEn": "Chat time (EN) *",
+      "chatTimeAr": "Chat time (AR) *",
+      "chatPhone": "Chat phone *",
+      "phoneCall": "Phone Call *",
+      "phoneTimeEn": "Phone Time (EN) *",
+      "phoneTimeAr": "Phone Time (AR) *",
+      "emailTimeEn": "Email Time (EN) *",
+      "emailTimeAr": "Email Time (AR) *",
+      "email": "Email *"
+    },
+    "placeholders": {
+      "chatTimeEn": "“Available Sunday – Friday, from 09:00 AM to 11:00PM”",
+      "chatTimeAr": "“Available Sunday – Friday, from 09:00 AM to 11:00PM”",
+      "chatPhone": "Which phone number chat will redirect to",
+      "phoneCall": "Phone number",
+      "phoneTimeEn": "“Available Sunday – Friday, from 09:00 AM to 11:00PM”",
+      "phoneTimeAr": "“Available Sunday – Friday, from 09:00 AM to 11:00PM”",
+      "emailTimeEn": "“Available Sunday – Friday, from 09:00 AM to 11:00PM”",
+      "emailTimeAr": "“Available Sunday – Friday, from 09:00 AM to 11:00PM”",
+      "email": "Support@Email.com"
+    },
+    "errors": {
+      "required": "This field is required",
+      "min": "Minimum length allowed is 3 characters",
+      "emailInvalid": "Please enter a valid email address"
+    }
+  },
+  "guideline": {
+    "form": {
+      "imageLabel": "Upload Image *",
+      "titleEn": "Title (EN) *",
+      "enterTitleEn": "Enter title in English",
+      "titleAr": "Title (AR) *",
+      "enterTitleAr": "Enter title in Arabic",
+      "subHeadingEn": "Subheading (EN) *",
+      "enterSubHeadingEn": "Enter subheading in English",
+      "subHeadingAr": "Subheading (AR) *",
+      "enterSubHeadingAr": "Enter subheading in Arabic",
+      "descriptionEn": "Description (EN) *",
+      "enterDescriptionEn": "Enter description in English",
+      "descriptionAr": "Description (AR) *",
+      "enterDescriptionAr": "Enter description in Arabic",
+      "readTime": "Read Time *",
+      "enterReadTime": "Enter read time"
+    },
+    "errors": {
+      "fileSizeMax": "The file size must be less than 4 MB",
+      "maxImages": "You can upload only one image",
+      "fileRequired": "Image is required",
+      "titleEnRequired": "English title is required",
+      "titleEnMin": "English title must be at least 3 characters",
+      "titleArRequired": "Arabic title is required",
+      "titleArMin": "Arabic title must be at least 3 characters",
+      "subHeadingEnRequired": "English subheading is required",
+      "subHeadingEnMin": "English subheading must be at least 3 characters",
+      "subHeadingArRequired": "Arabic subheading is required",
+      "subHeadingArMin": "Arabic subheading must be at least 3 characters",
+      "descriptionEnRequired": "English description is required",
+      "descriptionEnMin": "English description must be at least 3 characters",
+      "descriptionArRequired": "Arabic description is required",
+      "descriptionArMin": "Arabic description must be at least 3 characters",
+      "readTimeRequired": "Read time is required",
+      "readTimeMin": "Read time must contain at least 1 character"
+    },
+    "addGuideline": "Add Guideline",
+    "addNewGuideline": "Add New Guideline",
+    "editGuideline": "Edit Guideline"
+  },
+  "block": {
+    "addBlock": "Add Block",
+    "addNewBlock": "Add New Block",
+    "form": {
+      "typeLabel": "Type *",
+      "typePlaceholder": "Select block type",
+      "selectTypeToContinue": "Select a block type to continue",
+      "titleEnLabel": "Title EN *",
+      "titleEnPlaceholder": "Enter title in English",
+      "titleArLabel": "Title AR *",
+      "titleArPlaceholder": "Enter title in Arabic",
+      "descriptionEnLabel": "Description EN *",
+      "descriptionEnPlaceholder": "Enter description in English",
+      "descriptionArLabel": "Description AR *",
+      "descriptionArPlaceholder": "Enter description in Arabic",
+      "imageLabel": "Upload Image ",
+      "documentLabel": "Upload Document *",
+      "videoLabel": "Upload Video *",
+      "headerEnLabel": "Header EN *",
+      "headerEnPlaceholder": "Enter header in English",
+      "headerArLabel": "Header AR *",
+      "headerArPlaceholder": "Enter header in Arabic",
+      "badgeImageLabel": "Upload Badge Image *",
+      "imageTitleEnLabel": "Image Title EN *",
+      "imageTitleEnPlaceholder": "e.g., Homes& is licensed by the FRA",
+      "imageTitleArLabel": "Image Title AR *",
+      "imageTitleArPlaceholder": "e.g., Homes& is licensed by the FRA",
+      "linkLabelEnLabel": "Link Label EN *",
+      "linkLabelEnPlaceholder": "e.g., License FR001",
+      "linkLabelArLabel": "Link Label AR *",
+      "linkLabelArPlaceholder": "e.g., License FR001",
+      "imageDescEnLabel": "Image Description EN *",
+      "imageDescEnPlaceholder": "Image description in English - rich text",
+      "imageDescArLabel": "Image Description AR *",
+      "imageDescArPlaceholder": "Image description in Arabic - rich text",
+      "linkValueLabel": "Link URL *",
+      "linkValuePlaceholder": "https://www.example.com",
+      "stepsLabel": "Steps *",
+      "addStep": "+ Add steps",
+      "removeStep": "Remove Step",
+      "step": "Step",
+      "stepTitleEnLabel": "Step Title EN *",
+      "stepTitleEnPlaceholder": "e.g., Choose a Property",
+      "stepTitleArLabel": "Step Title AR *",
+      "stepTitleArPlaceholder": "e.g., Choose a Property",
+      "stepDescEnLabel": "Step Description EN *",
+      "stepDescEnPlaceholder": "e.g., Browse available opportunities in either the Quick Gain or Steady Growth model.",
+      "stepDescArLabel": "Step Description AR *",
+      "stepDescArPlaceholder": "e.g., Browse available opportunities in either the Quick Gain or Steady Growth model."
+    },
+    "errors": {
+      "typeRequired": "Block type is required",
+      "titleEnRequired": "English title is required",
+      "titleArRequired": "Arabic title is required",
+      "descriptionEnRequired": "English description is required",
+      "descriptionArRequired": "Arabic description is required",
+      "headerEnRequired": "English header is required",
+      "headerArRequired": "Arabic header is required",
+      "imageTitleEnRequired": "English image title is required",
+      "imageTitleArRequired": "Arabic image title is required",
+      "linkLabelEnRequired": "English link label is required",
+      "linkLabelArRequired": "Arabic link label is required",
+      "imageDescEnRequired": "English image description is required",
+      "imageDescArRequired": "Arabic image description is required",
+      "stepTitleEnRequired": "English step title is required",
+      "stepTitleArRequired": "Arabic step title is required",
+      "stepDescEnRequired": "English step description is required",
+      "stepDescArRequired": "Arabic step description is required",
+      "imageRequired": "Image is required",
+      "documentRequired": "Document is required",
+      "videoRequired": "Video is required",
+      "badgeImageRequired": "Badge image is required",
+      "atLeastOneStepRequired": "At least one step is required",
+      "validUrlRequired": "Please enter a valid URL"
+    },
+    "editBlock": "Edit Block",
+    "deleteBlock": "Delete Block",
+    "message": {
+      "blockDeletedSuccessfully": "About block has been deleted successfully"
+    }
+  },
+  "steatyForm": {
+    "labels": {
+      "numberOfYears": "Number of Years",
+      "yearEntries": "Year Entries",
+      "nameEn": "Name (English) *",
+      "nameAr": "Name (Arabic) *",
+      "growth": "Captial Growth *",
+      "rental": "Rental Yield (%)",
+      "percentage": "Percentage *",
+      "grossPrice": "Return Value *",
+      "grossPriceHint": "This represents the initial share price and cannot be edited.",
+      "yield": "Rental Yield *"
+    },
+    "placeholders": {
+      "numberOfYears": "Enter number of years",
+      "nameEn": "Enter English name",
+      "nameAr": "Enter Arabic name",
+      "growth": "Enter growth percentage",
+      "rental": "Enter rental value",
+      "percentage": "Enter Percentage of quick gain ",
+      "grossPrice": "Enter return value",
+      "yield": "Enter rental yield"
+    },
+    "errors": {
+      "numberOfYearsRequired": "Number of years is required",
+      "numberOfYearsMin": "Minimum allowed value is 1",
+      "numberOfYearsMax": "Maximum allowed value is 50",
+      "nameRequired": "This field is required",
+      "growthRequired": "Growth value is required",
+      "rentalRequired": "Rental value is required",
+      "percentageRequired": "Percentage is required",
+      "percentageMax": "Percentage cannot exceed 100%",
+      "percentageMin": "Percentage must be at least 1%",
+      "grossPriceRequired": "Return value is required",
+      "grossRequired": "Growth value is required",
+      "grossMin": "Growth value must be at least 1%",
+      "grossMax": "Growth value cannot exceed 100%",
+      "yieldRequired": "Yield value is required",
+      "yieldMin": "Yield value must be at least 0%",
+      "yieldMax": "Yield value cannot exceed 100%"
+    },
+    "exitYearNote": "This is the exit year. Names are automatically locked."
+  },
+  "admin": {
+    "addNewAdmin": "Add New Admin",
+    "errors": {
+      "nameEnRequired": "First name (English) is required",
+      "nameEnMin": "Minimum 3 characters",
+      "nameArRequired": "Last name (Arabic) is required",
+      "nameArMin": "Minimum 3 characters",
+      "phoneRequired": "Phone number is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email format",
+      "phoneInvalid": "Invalid Egyptian phone number",
+      "firstNameRequired": "First name is required ",
+      "firstNameMin": "Minimum 3 characters",
+      "lastNameMin": "Minimum 3 characters",
+      "lastNameRequired": "Last name is required "
+    },
+    "form": {
+      "firstName": "First name *",
+      "enterFirstName": "Enter first name",
+      "lastName": "Last name *",
+      "enterLastName": "Enter last name",
+      "email": "Email *",
+      "enterEmail": "Enter email",
+      "phoneNumber": "Phone number *",
+      "enterPhoneNumber": "Enter phone number"
+    },
+    "resendEmail": "Resend Email"
+  },
+  "property_management_system": "Property Management System",
+  "fileSizeMax": "File is too large. Max size is {{size}}MB",
+  "real_estate_hub": "Real Estate Hub",
+  "properties_management": "Properties Management",
+  "properties_list": "Properties List",
+  "developers": "Developers",
+  "knowledge_hub": "Knowledge Hub",
+  "investor_guidelines": "Investor Guidelines",
+  "faqs": "FAQs",
+  "legal_compliance": "Legal & Compliance",
+  "downloadable_files": "Downloadable Files",
+  "app_guide": "App Guide",
+  "how_to_use_app": "How to use App",
+  "prices": "Prices",
+  "payment_plan": "Payment Plan",
+  "users": "Users",
+  "application_users": "Application Users",
+  "admins": "Admins",
+  "privacy_policy": "Privacy Policy",
+  "risk_statements": "Risk Statements",
+  "payment_terms": "Payment Terms",
+  "priceForm": {
+    "errors": {
+      "dateRequired": "Date is required",
+      "timeRequired": "Time is required",
+      "priceRequired": "Price is required",
+      "priceMin": "Price must be greater than 0",
+      "capitalAppreciationRequired": "Capital Appreciation is Required",
+      "capitalAppreciationRequiredMin": "Capital Appreciation must be greater than 0",
+      "capitalAppreciationRequiredMax": "Capital Appreciation must be less than 100"
+    },
+    "labels": {
+      "date": "Date*",
+      "time": "Time*",
+      "price": "Price*",
+      "capitalAppreciationPercent": "Capital Appreciation*"
+    },
+    "placeholders": {
+      "selectDate": "Select date",
+      "selectTime": "Select time",
+      "enterPrice": "Enter price",
+      "enterCapitalAppreciationPercent": "Enter Capital Appreciation Percent"
+    }
+  },
+  "pages": {
+    "login": {
+      "title": "Welcome Back!",
+      "description": "Please sign in to manage your restaurant.",
+      "forgetPassword": "Forget Password?"
+    },
+    "forgetPassword": {
+      "title": "Forgot Password",
+      "description": "Enter the email address associated with your account to receive a password reset link."
+    },
+    "otp": {
+      "title": "OTP Sent",
+      "description": "We’ve sent a One-Time Password (OTP) to example@email.com. Please check your inbox and enter the OTP below to reset your password."
+    },
+    "resetPassword": {
+      "title": "Change Password",
+      "description": "Enter a new password below."
+    }
+  },
+  "forms": {
+    "labels": {
+      "email": "Email",
+      "password": "Password",
+      "newPassword": "New password",
+      "confirmNewPassword": "Confirm New Password",
+      "dateRange": {
+        "title": "Select Date Range",
+        "description": "Select start and end date of your desired range"
+      },
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    },
+    "placeholders": {
+      "email": "Please enter your email",
+      "password": "Please enter your password",
+      "newPassword": "Please enter your new password",
+      "confirmNewPassword": "Confirm New Password",
+      "pickADate": "Pick a Date"
+    },
+    "errors": {
+      "email": {
+        "required": "Email is required",
+        "invalid": "Invalid Format"
+      },
+      "confirmNewPassword": {
+        "match": "Passwords don't match"
+      },
+      "otp": "Your one-time password must be 5 characters.",
+      "startDate": "Start Date is required",
+      "endDate": "End Date is required",
+      "dateComparison": "Start Date must be before End Date"
+    },
+    "buttonLabels": {
+      "submit": "Submit",
+      "send": "Send",
+      "reset": "Reset",
+      "signin": "Sign in",
+      "backLogin": "Back to sign in",
+      "resendAgain": "Resend again",
+      "resendEmail": "Resend Email",
+      "seconds": "seconds",
+      "apply": "Apply",
+      "cancel": "Cancel",
+      "close": "Close",
+      "remove": "Remove",
+      "editProperty": "Edit Property",
+      "editDeveloper": "Edit Developer",
+      "deleteDeveloper": "Delete Admin",
+      "assignPrices": "Assign Prices",
+      "assignDocuments": "Assign Documents",
+      "assignImages": "Assign Images",
+      "addPrice": "Add Price",
+      "addDocument": "Add Document",
+      "editPrice": "Edit Price",
+      "editDocument": "Edit Document",
+      "editFaq": "Edit FAQS",
+      "addFaq": "Add FAQ",
+      "editSocialMedia": "Edit Social Media",
+      "deleteSocialMedia": "Delete Social Media",
+      "editGuideline": "Edit guidline",
+      "deleteGuideline": "Delete Guideline",
+      "growthProperty": "Annual Return",
+      "quickProperty": "Annual Return",
+      "paymentPlan": "Payment Plan",
+      "propertyValue": "Price & valuations",
+      "expectedAnnualReturn": "Expected Return",
+      "publish": "Publish Property",
+      "addPaymentPlan": "Add Payment Plan",
+      "editAdmin": "Edit Admin",
+      "deleteAdmin": "Delete Admin",
+      "deleteRole": "Delete Role",
+      "editRole": "Edit Role",
+      "completefunding": "Complete funding",
+      "exitProperty": "Exit Property"
+    },
+    "toasts": {
+      "otp": "Email sent! Please check your inbox.",
+      "changePassword": "Your password has been reset successfully. Please log in again."
+    }
+  },
+  "shared": {
+    "appTitle": "Bosta Task",
+    "optionalLabel": "(optional)",
+    "phoneInput": {
+      "searchPlaceholder": "Search country...",
+      "emptyState": "No country found.",
+      "countrySelectAria": "Select country"
+    }
+  },
+  "paymentType": {
+    "form": {
+      "nameEnLabel": "Name (English) *",
+      "nameArLabel": "Name (Arabic) *",
+      "nameEnPlaceholder": "Enter payment type name in English",
+      "nameArPlaceholder": "Enter payment type name in Arabic",
+      "nameEnRequired": "Name (English) is required",
+      "nameEnMin": "Name (English) must be at least 2 characters",
+      "nameEnMax": "Name (English) must be at most 100 characters",
+      "nameArRequired": "Name (Arabic) is required",
+      "nameArMin": "Name (Arabic) must be at least 2 characters",
+      "nameArMax": "Name (Arabic) must be at most 100 characters"
+    }
+  },
+  "property": {
+    "showing": {
+      "property": "Showing {{count}} property",
+      "properties": "Showing {{count}} properties"
+    },
+    "noPropertiesFound": {
+      "title": "No properties found",
+      "description": "We couldn't find any properties matching your search criteria. Try adjusting your filters or search terms."
+    },
+    "savedConfirmation": {
+      "title": "Property has been saved successfully",
+      "description": "Property is saved as Draft. Images can be added now or anytime before publishing.",
+      "addImagesButton": "Add property images",
+      "addLaterButton": "Add images later",
+      "hint": "You can upload, reorder, or change the cover image at any time before publishing."
+    },
+    "investment": "Investment Model",
+    "id": "ID",
+    "name": "Name",
+    "address": "Address",
+    "area": "Area",
+    "descrption": "Description",
+    "developer": "Developer",
+    "unitPrice": "Unit Price",
+    "totalShares": "Total Shares",
+    "addedDate": "Added Date",
+    "exist": "Exit Strategy",
+    "actions": "Actions",
+    "addProperty": "Add Property",
+    "addNewProperty": "Add New Property",
+    "editProperty": "Edit Property",
+    "form": {
+      "nameEn": "Name EN *",
+      "nameAr": "Name AR *",
+      "aboutEn": "About EN *",
+      "aboutAr": "About AR *",
+      "uploadCover": "Property Cover",
+      "enterNameEn": "Enter property name in English",
+      "enterNameAr": "Enter property name in Arabic",
+      "enterAboutEn": "Enter property description in English",
+      "enterAboutAr": "Enter property description in Arabic",
+      "totalShares": "Total shares *",
+      "enterTotalShares": "Enter total shares",
+      "unitPrice": "Unit Price *",
+      "enterUnitPrice": "Enter unit price",
+      "exitStrategy": "Exit Strategy *",
+      "city": "City *",
+      "selectCity": "Select city",
+      "area": "Area *",
+      "selectArea": "Select area",
+      "developer": "Developer *",
+      "selectDeveloper": "Select developer",
+      "downPayment": "Down Payment *",
+      "enterDownPayment": "Enter Down payment",
+      "planDuration": "Plan Duration *",
+      "enterPlanDuration": "Enter number of months",
+      "maintenanceFees": "Maintenance fees *",
+      "enterMaintenanceFees": "Enter maintenance fees",
+      "investmentModel": "Investment Model *",
+      "selectInvestmentModel": "Select investment model",
+      "installmentFrequency": "Installment frequency *",
+      "selectInstallmentFrequency": "Select installment frequency",
+      "selectExitStrategy": "Select Exit Strategy",
+      "imageLable": "Property Image *",
+      "exitDate": "Exit Date *",
+      "selectExitDate": "Select exit date",
+      "estimatedROI": "Estimated ROI *",
+      "enterEstimatedROI": "Enter estimated ROI",
+      "growthExitROI": "Growth Exit ROI *",
+      "enterGrowthExitROI": "Enter growth exit ROI",
+      "rentalExitROI": "Rental Exit ROI *",
+      "enterRentalExitROI": "Enter rental exit ROI",
+      "expectedRentalDate": "Expected Rental Date *",
+      "selectExpectedRentalDate": "Select expected rental date",
+      "downPaymentsSection": "Down Payments",
+      "downPaymentLabel": "{{orderText}} Down Payment *",
+      "downPaymentAmountPlaceholder": "Enter amount",
+      "downPaymentDateLabel": "Date *",
+      "downPaymentDatePlaceholder": "Select date",
+      "sharePrice": "Share Price *",
+      "enterSharePrice": "Enter share price",
+      "noROIRequired": "No ROI Required",
+      "paymentPlanLabel": "Payment Plan *",
+      "selectPaymentPlan": "Select payment plan",
+      "propertyStageLabel": "Property Stage *",
+      "selectPropertyStage": "Select property stage",
+      "deliveryDateLabel": "Delivery Date *",
+      "selectDeliveryDate": "Select delivery date",
+      "amount": "Amount",
+      "paymentDateOptional": "Payment Date",
+      "enterPaymentDate": "Enter Payment Date",
+      "addSubtitle": "Add Subtitle",
+      "recurringMonthlyPayment": "Recurring monthly payment",
+      "addAnotherPayment": "Add another payment",
+      "investmentDetails": "Investment Details",
+      "propertyDetails": "Property Details",
+      "financialModel": "Financial Model",
+      "paymentPlan": "Payment Plan",
+      "investmentSetup": "Investment Setup",
+      "showInAppLabel": "Show delivery date in mobile app?",
+      "downPaymentPlan": "Down Payment ",
+      "search": "Search...",
+      "notFound": "Not Found..."
+    },
+    "errors": {
+      "nameEnRequired": "Property name in English is required",
+      "nameArRequired": "Property name in Arabic is required",
+      "aboutEnRequired": "Property description in English is required",
+      "aboutArRequired": "Property description in Arabic is required",
+      "coverPhotoRequired": "Cover photo is required",
+      "totalSharesRequired": "Total shares is required",
+      "unitPriceRequired": "Unit price is required",
+      "exitStrategyRequired": "Exit strategy is required",
+      "cityRequired": "City is required",
+      "areaRequired": "Area is required",
+      "developerRequired": "Developer is required",
+      "downPaymentRequired": "Down payment is required",
+      "planDurationRequired": "Plan duration is required",
+      "maintenanceFeesRequired": "Maintenance fees is required",
+      "investmentModelRequired": "Investment model is required",
+      "installmentFrequencyRequired": "Installment frequency is required",
+      "downPaymentsRequired": "Down Payment is required",
+      "paymentAmountRuqired": "Amount Payment is Ruqired",
+      "paymentAmountRequired": "Amount Payment is Required",
+      "EstimatedROIRequired": "Estimated ROI is required and must be greater than or equal to 0.",
+      "GrowthExitROIRequired": "Growth Exit ROI must be greater than or equal to 0.",
+      "RentalExitROIRequired": "Rental Exit ROI must be greater than or equal to 0.",
+      "ExpectedRentalDateRequired": "Expected Rental Date is required.",
+      "ExitDateRequired": "Exit Date is required.",
+      "sharePriceRequired": "Share price is required",
+      "dateRequired": "Date is required",
+      "paymentPlanRequired": "Payment Plan Required",
+      "paymentPlanIsRequired": "Payment Plan Is Required",
+      "propertyStageRequired": "Property Stage is Required",
+      "deliveryDateRequired": "Delivery date id required",
+      "paymentTypeRequired": "Payment type is required"
+    },
+    "options": {
+      "exitStrategy": {
+        "fixedTerm": "Fixed Term",
+        "capitalAppreciation": "Capital Appreciation %"
+      },
+      "city": {
+        "cairo": "Cairo",
+        "alexandria": "Alexandria",
+        "giza": "Giza",
+        "luxor": "Luxor"
+      },
+      "area": {
+        "newCairo": "New Cairo",
+        "maadi": "Maadi",
+        "nasrCity": "Nasr City",
+        "zamalek": "Zamalek"
+      },
+      "developer": {
+        "eastDelta": "East Delta",
+        "sodic": "SODIC",
+        "palmHills": "Palm Hills",
+        "orascom": "Orascom"
+      },
+      "investmentModel": {
+        "flip": "Flip",
+        "rental": "Rental",
+        "buyAndHold": "Buy and Hold"
+      },
+      "installmentFrequency": {
+        "monthly": "Monthly",
+        "quarterly": "Quarterly",
+        "yearly": "Yearly"
+      }
+    },
+    "Prices": "Property Prices",
+    "removeProperty": "Remove Property",
+    "steatyGrowth": "Steaty Growth",
+    "QuickGain": "Quick Gain",
+    "PaymentPlan": "Payment Plan",
+    "placeholder": {
+      "enterSubTitleEn": "Enter subtitle",
+      "enterSubTitleAr": "Enter subtitle"
+    },
+    "propertyValue": "Property Value",
+    "savedAsDraft": "Property saved as draft",
+    "assignImages": "Assign Images",
+    "card": {
+      "noImagesUploaded": "No images uploaded",
+      "totalPropertyValue": "Total Property Value",
+      "expAnnualROI": "Exp. annual ROI",
+      "sharePrice": "Share Price",
+      "totalShares": "Total Shares",
+      "initialPropertyValue": "Initial Property Value",
+      "initialInvestment": "Initial Investment",
+      "monthlyInst": "Monthly inst.",
+      "funded": "funded",
+      "sharesAvailable": "Shares available",
+      "notLiveYet": "Not live yet",
+      "exitedPropertyValue": "Exited Property Value",
+      "exitedROI": "Exited ROI",
+      "purchasePrice": "Purchase price",
+      "exitedDate": "Exited date",
+      "exitedWithROI": "Exited with +{{roi}}% ROI in {{months}} Months",
+      "imagesMissing": "Images missing",
+      "documentsMissing": "Documents missing",
+      "annualReturnsMissing": "Annual returns missing",
+      "paymentPlanMissing": "Payment plan missing",
+      "monthlyInstallments": "Monthly inst.",
+      "propertyValue": "Total Property Value",
+      "currentPropertyValue": "Current Property Value",
+      "totalROI": "Total ROI",
+      "funding": "Fully Funded in 6 Days"
+    },
+    "publish": {
+      "title": "Publish Property",
+      "description": "Are you sure you want to publish this property?",
+      "success": "Property published successfully",
+      "validationError": "Missing required information",
+      "validationDescription": "Please complete the following before publishing:",
+      "requirements": {
+        "images": "Images",
+        "paymentPlans": "Payment Plans",
+        "annualReturns": "Expected Annual Returns (Quick/Steady Growth)",
+        "documents": "Documents",
+        "documentFiles": "Document files",
+        "prices": "Property Prices",
+        "pricesMinimum": "Property Prices (at least 2 records)",
+        "timelines": "Property Timelines"
+      },
+      "successMessage": " All requirements are met. Property is ready to publish."
+    },
+    "completeFunding": {
+      "title": "Complete Funding",
+      "description": "Are you sure you want to mark this property as Funded?",
+      "success": "Property marked as Funded successfully",
+      "validationError": "Missing required information",
+      "validationDescription": "Please complete the following before completing funding:",
+      "successMessage": "All requirements are met. Property is ready to be marked as Funded."
+    },
+    "ExitQuick": "Return Summary",
+    "ExitQuickDescription": "Define final return values per share. Percentages are calculated automatically.",
+    "basePriceNoROI": "Base Price (No ROI)"
+  },
+  "developer": {
+    "form": {
+      "uploadCover": "Upload Developer Logo",
+      "nameEn": "Developer Name (English) *",
+      "enterNameEn": "Enter developer name in English",
+      "nameAr": "Developer Name (Arabic) *",
+      "enterNameAr": "Enter developer name in Arabic",
+      "descrptionEn": "Description (English) *",
+      "enterDescrptionEn": "Enter developer description in English",
+      "descrptionAr": "Description (Arabic) *",
+      "enterDescrptionAr": "Enter developer description in Arabic",
+      "imageLable": "Image Developer *"
+    },
+    "errors": {
+      "nameEnRequired": "English name is required",
+      "nameArRequired": "Arabic name is required",
+      "descrptionEnRequired": "English description is required",
+      "descrptionArRequired": "Arabic description is required",
+      "nameEnMin": "English name must be at least 3 characters",
+      "nameArMin": "Arabic name must be at least 3 characters",
+      "descrptionEnMin": "English description must be at least 3 characters",
+      "descrptionArMin": "Arabic description must be at least 3 characters",
+      "fileSizeMax": "File size must be less than 5MB",
+      "maxImages": "You can upload a maximum of 1 image",
+      "fileRequired": "Please upload an image"
+    },
+    "addNewDeveloper": "Add new developer",
+    "addDeveloper": "Add Developer",
+    "editDeveloper": "Edit developer",
+    "description": "Description",
+    "createdOn": "Created On",
+    "name": "Name"
+  },
+  "socialMedia": {
+    "addSocialMedia": "Add Social Media link",
+    "addNewSocialMedia": "Add new social media link",
+    "editSocialMedia": "Edit social media link",
+    "name": "Name",
+    "url": "URL",
+    "createdOn": "Created On",
+    "form": {
+      "iconLabel": "Social media icon *",
+      "nameEn": "Name (English) *",
+      "enterNameEn": "Enter name in English",
+      "nameAr": "Name (Arabic) *",
+      "enterNameAr": "Enter name in Arabic",
+      "url": "URL *",
+      "enterUrl": "Enter URL"
+    },
+    "errors": {
+      "fileSizeMax": "File size must be less than 5MB",
+      "maxImages": "You can upload a maximum of 1 image",
+      "fileRequired": "Please upload an icon",
+      "nameEnRequired": "English name is required",
+      "nameEnMin": "English name must be at least 3 characters",
+      "nameArRequired": "Arabic name is required",
+      "nameArMin": "Arabic name must be at least 3 characters",
+      "urlRequired": "URL is required",
+      "urlInvalid": "Please enter a valid URL that starts with http or www"
+    }
+  },
+  "questions": {
+    "forms": {
+      "labels": {
+        "questionEn": "Question (English) *",
+        "questionAr": "Question (Arabic) *",
+        "answerEn": "Answer (English) *",
+        "answerAr": "Answer (Arabic) *"
+      },
+      "placeholders": {
+        "questionEn": "Enter question in English",
+        "questionAr": "Enter question arabic",
+        "answerEn": "Enter answer in English",
+        "answerAr": "Enter answer arabic"
+      },
+      "errors": {
+        "questionEnRequired": "Question (English) is required",
+        "questionEnMin": "Question must be at least 3 characters",
+        "questionArRequired": "Question (Arabic) is required",
+        "questionArMin": "Question must be at least 3 characters",
+        "answerEnRequired": "Answer (English) is required",
+        "answerEnMin": "Answer must be at least 3 characters",
+        "answerArRequired": "Answer (Arabic) is required",
+        "answerArMin": "Answer must be at least 3 characters"
+      }
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "title": {
+    "FAQs": "FAQs",
+    "propertiesList": "Properties List",
+    "Developers": "Developers",
+    "HowToUse": "How To Use App",
+    "HelpSupport": "Help & Support",
+    "SocialMedia": "Social Media",
+    "About": "About Homes&",
+    "privacyPolicy": "Privacy & Policy",
+    "setting": "General Setting",
+    "Admins": "Admins list"
+  },
+  "search": {
+    "SearchbyFAQName": "Search by FAQ name...",
+    "byPropertyName": "Search by property name",
+    "ByDeveloperName": "By developer name...",
+    "byDocumentName": "Search by document name",
+    "BySocialMediaName": "By social media name...",
+    "ByGuidelineTitle": "Search by guideline title",
+    "searchByName": "Search By..."
+  },
+  "message": {
+    "FAQcreatedsuccessfully": "FAQ created successfully",
+    "FAQeditsuccessfully": "Policy has been edited successfuly",
+    "Policyeditsuccessfully": "Policy has been edit successfully",
+    "ContactUpdatedSuccessfully": "Contact Updated Successfully",
+    "LicenseEditSuccessfully": "License Created Or Updated Successfully",
+    "Admincreatedsuccessfully": "Admin has been created successfully",
+    "Rolecreatedsuccessfully": "Role has been created successfully!",
+    "Roleeditedsuccessfully": "Role has been edited successfully!\t"
+  },
+  "table": {
+    "questions": "Questions",
+    "title": "Title",
+    "subHeading": "Sub-Heading",
+    "readTime": "Read Time",
+    "date": "Date",
+    "actions": "Actions",
+    "id": "ID",
+    "createdOn": "Created On",
+    "price": "Price",
+    "legalName": "Legal Name",
+    "type": "Type",
+    "paymentName": "Payment Name",
+    "status": "Status",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "lastName": "Last Name",
+    "firstName": "First Name",
+    "adminName": "Admins Name",
+    "dueDate": "Due date",
+    "paymentValue": "Payment value",
+    "name": "Name",
+    "capitalAppreciation": "Capital Appreciation %",
+    "time": "Time",
+    "paymentType": "Payment Type"
+  },
+  "faq": {
+    "forms": {
+      "buttonLabels": {
+        "editFaq": "Edit FAQ",
+        "deleteFaq": "Remove FAQ"
+      }
+    }
+  },
+  "showing": "Showing {{start}} to {{end}} of {{total}} results",
+  "date": {
+    "Placeholder": "Select Date"
+  },
+  "Reset": "Reset",
+  "buttons": {
+    "cancel": "Cancel",
+    "save": "save",
+    "Remove": "Remove",
+    "confirm": "Confirm",
+    "continue": "Continue",
+    "back": "Back",
+    "finish": "Finish",
+    "confirem": "Confirem",
+    "remove": "Remove",
+    "next": "Next",
+    "close": "Close",
+    "saving": "saving",
+    "addValuation": "Add Valuation",
+    "exitProperty": "Confirm Exit",
+    "addExit": "Add another return"
+  },
+  "File size must be less than 4MB": "File size must be less than 4MB",
+  "You can upload a maximum of 1 images": "You can upload a maximum of 1 images",
+  "Upload developer logo": "Upload developer logo",
+  "Developer has been created successfuly": "Developer has been created successfuly",
+  "Developer has been removed successfuly": "Developer has been removed successfuly",
+  "Developer has been edited successfuly": "Developer has been edited successfuly",
+  "Social media has been created successfully": "Social media has been created successfully",
+  "Social media has been removed successfully": "Social media has been removed successfully",
+  "Social media has been edited successfully": "Social media has been edited successfully",
+  "placeholder": {
+    "selectDate": "Select Date"
+  },
+  "about": "About Homes&",
+  "sideBar": {
+    "SocialMedia": "Social Media links",
+    "ContactSupport": "Contact & Support",
+    "adminList": "Admins List",
+    "paymentPlanType": "Payment Plan Type"
+  },
+  "App document has been created successfully": "App document has been created successfully",
+  "App document has been edited successfully": "App document has been edited successfully",
+  "App document has been removed successfully": "App document has been removed successfully",
+  "Property has been created successfully": "Property has been created successfully",
+  "Property has been removed successfully": "Property has been removed successfully",
+  "Property document has been created successfully": "Property document has been created successfully",
+  "Property document has been edited successfully": "Property document has been edited successfully",
+  "Property document has been removed successfully": "Property document has been removed successfully",
+  "Property price has been created successfully": "Property price has been created successfully",
+  "Property price has been removed successfully": "Property price has been removed successfully",
+  "Edit Property Legal Document": "Edit Property Legal Document",
+  "price": {
+    "editPrice": "Edit Price",
+    "removePrice": "Remove Price"
+  },
+  "Document": {
+    "removeDocument": "Remove Document"
+  },
+  "appDocument": {
+    "form": {
+      "fileLabel": "Downloadable Document*",
+      "nameEnLabel": "Name EN *",
+      "nameEnPlaceholder": "Enter name in English",
+      "nameArLabel": "Name AR *",
+      "nameArPlaceholder": "Enter name in Arabic",
+      "typeLabel": "Type*",
+      "typePlaceholder": "Select type",
+      "descriptionEnLabel": "Downloadable description EN",
+      "descriptionEnPlaceholder": "Enter description in English",
+      "descriptionArLabel": "Downloadable description AR",
+      "descriptionArPlaceholder": "Enter description in Arabic",
+      "types": {
+        "legalDocument": "Legal Document",
+        "legalStatement": "Legal Statement"
+      }
+    },
+    "errors": {
+      "typeRequired": "Document type is required.",
+      "nameEnRequired": "English name is required.",
+      "nameArRequired": "Arabic name is required.",
+      "descriptionEnRequired": "English description is required.",
+      "descriptionArRequired": "Arabic description is required.",
+      "descriptionEnMin": "English description must be at least 3 characters.",
+      "descriptionArMin": "Arabic description must be at least 3 characters.",
+      "fileRequired": "A legal document file is required."
+    }
+  },
+  "propertyDocument": {
+    "dialogTitle": "Property Legal Documents",
+    "form": {
+      "fileLabel": "Property Legal Document",
+      "nameEnLabel": "Name EN*",
+      "nameEnPlaceholder": "Enter name in English",
+      "nameArLabel": "Name AR*",
+      "nameArPlaceholder": "Enter name in Arabic",
+      "typeLabel": "Type*",
+      "types": {
+        "legalDocument": "Legal documents",
+        "legalStatement": "Legal statements"
+      },
+      "descriptionEnLabel": "Document description EN",
+      "descriptionEnPlaceholder": "Enter description in English",
+      "descriptionArLabel": "Document description AR",
+      "descriptionArPlaceholder": "Enter description in Arabic"
+    },
+    "errors": {
+      "nameEnRequired": "Name EN is required",
+      "nameArRequired": "Name AR is required",
+      "fileRequired": "Property document is required",
+      "typeRequired": "Document type is required"
+    }
+  },
+  "removePrice": "Remove Price",
+  "cancel": "cancel",
+  "Search by name": "Search by name...",
+  "Downloadable Files": "Downloadable Files",
+  "Add Legal Document": "Add Legal Document",
+  "Property Documents": "Property Documents",
+  "Investor Guidelines": "Investor Guidelines",
+  "Privacy Policy": "Privacy Policy",
+  "Log out": "Log out",
+  "roperty": {
+    "errors": {
+      "Dateisrequired": "Date is required"
+    }
+  },
+  "Unsaved Changes": "Unsaved Changes",
+  "You have unsaved changes Are you sure you want to discard them": "You have unsaved changes Are you sure you want to discard them",
+  "hintUrl": "Hint: use links starting with \\\"www\\\", \\\"http://\\\", or \\\"https://\\\"",
+  "StartTyping": "Start typing...",
+  "minValue": "Value must be at least 0%'",
+  "maxValue": "Value cannot exceed 100%",
+  "invalidPhoneNumber": "Invalid phone number",
+  "errors": {
+    "descrptionMax": "Description must be less thant 300 characters",
+    "nameMax": "Name must be less thant 300 characters",
+    "fieldMax": "Field must be less thant 300 characters",
+    "readTimeMin": "Minimum is 1 minute",
+    "readTimeMax": "Maximum is 60 minutes",
+    "readTimeRequired": "Read time is required",
+    "titleEnRequired": "English title is required",
+    "titleEnMin": "English title must be at least 2 characters",
+    "titleEnMax": "English title must be less than 200 characters",
+    "titleArRequired": "Arabic title is required",
+    "titleArMin": "Arabic title must be at least 2 characters",
+    "titleArMax": "Arabic title must be less than 200 characters",
+    "headerEnRequired": "English header is required",
+    "headerEnMin": "English header must be at least 2 characters",
+    "headerEnMax": "English header must be less than 200 characters",
+    "headerArRequired": "Arabic header is required",
+    "headerArMin": "Arabic header must be at least 2 characters",
+    "headerArMax": "Arabic header must be less than 200 characters",
+    "imageTitleEnRequired": "English image title is required",
+    "imageTitleEnMin": "English image title must be at least 2 characters",
+    "imageTitleEnMax": "English image title must be less than 200 characters",
+    "imageTitleArRequired": "Arabic image title is required",
+    "imageTitleArMin": "Arabic image title must be at least 2 characters",
+    "imageTitleArMax": "Arabic image title must be less than 200 characters",
+    "stepTitleEnRequired": "Step English title is required",
+    "stepTitleEnMin": "Step English title must be at least 2 characters",
+    "stepTitleEnMax": "Step English title must be less than 200 characters",
+    "stepTitleArRequired": "Step Arabic title is required",
+    "stepTitleArMin": "Step Arabic title must be at least 2 characters",
+    "stepTitleArMax": "Step Arabic title must be less than 200 characters",
+    "stepDescEnRequired": "Step English description is required",
+    "stepDescEnMin": "Step English description must be at least 3 characters",
+    "stepDescEnMax": "Step English description must be less than 500 characters",
+    "stepDescArRequired": "Step Arabic description is required",
+    "stepDescArMin": "Step Arabic description must be at least 3 characters",
+    "stepDescArMax": "Step Arabic description must be less than 500 characters",
+    "onlyArabic": "Field (Arabic) must contain only Arabic letters.",
+    "onlyEnglish": "Feild (English) must contain only English letters.",
+    "fieldDescMax": "Field must be less thant 5000 characters"
+  },
+  "contactUs": "Contact Us",
+  "searchCountry": "Search country...",
+  "fileTypeNotAllowed": "This file type is not accepted",
+  "footer_licesnse": "Footer license",
+  "footer_license": "License",
+  "Admins": "Admins list",
+  "buttonLabels": {
+    "resendAgain": "Resend Again",
+    "resendEmail": "Resend Otp"
+  },
+  "Invalid email address": "Invalid email address",
+  "Email is required": "Email is required",
+  "SearchByPaymentName": "Search By Payment Name .....",
+  "Select Status": "Select Status",
+  "downPayment": {
+    "isRecurring": "If enabled, this payment will display \"Starts from [date]\" in the mobile app."
+  },
+  "Document has been edited successfully": "Document has been edited successfully",
+  "Payment Plan Type": "Payment Plan Type",
+  "Add Payment Type": "Add Payment Type",
+  "Search by Payment Type Name": "Search by Payment Type Name",
+  "Payment Type has been removed successfully": "Payment Type has been removed successfully",
+  "uploadingImages": "Uploading images",
+  "imagesUploadedSuccessfully": "Images uploaded successfully",
+  "addPropertyImages": "Add property images",
+  "closeModal": "Close",
+  "dontCloseWindow": "Please don’t close this window while images are being uploaded.",
+  "imagesReady": "Your images are ready to be used.",
+  "image": "image",
+  "images": "images",
+  "uploaded": "uploaded",
+  "cover": "Cover",
+  "done": "Done",
+  "uploadDescription": "Upload images for this property. You can reorder images and choose the cover image.",
+  "clickToUpload": "Click to upload",
+  "selectFiles": "Select files",
+  "addMoreImages": "Add more images",
+  "back": "Back",
+  "saveChanges": "Save changes",
+  "validation": {
+    "maxImagesAtOnce": "You can upload up to {{count}} images at a time.",
+    "invalidFileType": "File {{name}} is not a supported image type.",
+    "fileTooLarge": "File {{name}} exceeds the maximum allowed size of {{size}}."
+  },
+  "description": "Property is saved as Draft. Images can be added now or anytime before publishing.",
+  "addImagesButton": "Add property images",
+  "addLaterButton": "Add images later",
+  "hint": "You can upload, reorder, or change the cover image at any time before publishing.",
+  "searchPlaceholder": "Search properties…",
+  "No properties found": "No properties found",
+  "No properties found description": " We couldn't find any properties matching your search criteria. Try               adjusting your filters or search terms.",
+  "value": {
+    "dialogTitle": "Valuation Timeline",
+    "dialogDescription": "Track property valuations, share prices, and rental income over time.",
+    "valutionUpdate": "Add valuation update",
+    "placeholders": {
+      "selectDate": "Select Date",
+      "enterValue": "Enter Property Value",
+      "enterTotalROI": "Enter total Roi value %"
+    },
+    "labels": {
+      "date": "Valuation Date *",
+      "value": "Property Value *",
+      "totalROI": "Total value ROI*",
+      "sharePrice": "Share Price (auto-calculated)",
+      "totalShares": "Total Shares"
+    },
+    "errors": {
+      "dateRequired": "Valuation date is required",
+      "valueRequired": "Property value is required",
+      "totalROIRequired": "Total ROI is required",
+      "valueMin": "Value must be more than 1",
+      "totalROIMin": "Total Roi precentage must be morev than 0.01",
+      "totalROIMax": "Total roi must less than 100 "
+    },
+    "descriptions": {
+      "sharePrice": "This value is automatically calculated based on Total Property Value ÷ Total Shares.",
+      "rentCollectionNotStarted": "Rent collection has not started yet",
+      "rentCollectionNotStartedSub": "Will be calculated when rent collection starts."
+    }
+  },
+  "valuation": {
+    "loadingValuations": "Loading valuations...",
+    "failedToLoad": "Failed to load valuations",
+    "noValuations": "No valuations found",
+    "valuationHistory": "Valuation History",
+    "date": "Date",
+    "propertyValue": "Property Value",
+    "capitalGrowth": "Capital Growth",
+    "rentYield": "Rent Yield",
+    "rentGrowth": "Rent Growth",
+    "rentStatus": "Rent Status",
+    "latest": "Latest",
+    "generated": "Generated",
+    "notStarted": "Not Started",
+    "rentalPerformance": "Rental Performance",
+    "generatingRent": "Generating rent",
+    "totalRent": "Total rent",
+    "enterTotalRent": "Enter total rent",
+    "rentPerShare": "Rent per share (auto-calculated)",
+    "perShare": "per share",
+    "rentCollectionNotStarted": "Rent collection has not started yet",
+    "totalPropertyROI": "Total Property ROI",
+    "totalPropertyROIDescription": " This represents the total ROI achieved by the property ( Capital               appreciation and rental yield) and will be displayed to investors               in the mobile app.",
+    "valuationTableDescription": "The latest entry represents the current valuation shown across the dashboard and mobile app."
+  },
+  "roles": {
+    "Add New Role": "Add New Role",
+    "Roles": "Roles & Permissions",
+    "RolesPermissions": "Roles & Permissions\t",
+    "roleNameAr": "Role Name AR",
+    "roleNameEn": "Role Name",
+    "roleName": "Role Name",
+    "form": {
+      "nameEn": "Role Name EN*",
+      "nameAr": "Role Name AR*"
+    },
+    "Review Submit": "Review & Submit",
+    "Select Permissions": "Select Permissions",
+    "Add Role": "Add Role",
+    "Role": "Role",
+    "Permissions": "Permissions",
+    "Submit": "Submit",
+    "searchByRole": "Search By Role Name..",
+    "Review": "Review",
+    "Export": "Export",
+    "noPermissionsSelected": "No Permissions Selected",
+    "NoPermissionsSelected": "No Permissions Selected"
+  },
+  "Login successful": "Login successful",
+  "Failed to login": "Failed to login. Please check your credentials.",
+  "Sign up successful": "Sign up successful",
+  "Cart has been updated successfully": "Cart has been updated successfully",
+  "Failed to update cart": "Failed to update cart",
+  "Cart has been deleted successfully": "Cart has been deleted successfully",
+  "Failed to delete cart": "Failed to delete cart",
+  "Product has been created successfully": "Product has been created successfully",
+  "Failed to create product": "Failed to create product"
+}
