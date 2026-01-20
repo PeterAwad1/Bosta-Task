@@ -1,4 +1,3 @@
-import { z } from 'zod';
 
 const apiUrl = import.meta.env.VITE_BASE_URL;
 const dataBaseUrl = import.meta.env.VITE_DATABASE_URL;
