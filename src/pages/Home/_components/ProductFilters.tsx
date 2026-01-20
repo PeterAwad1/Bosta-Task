@@ -30,13 +30,13 @@ const ProductFilters = ({
 }: ProductFiltersProps) => {
   const { isEnglish } = useLocale();
   const { dir } = useTranslations();
+
   return (
-    <div className="flex flex-wrap gap-4">
+    <div className="grid gap-3 sm:grid-cols-2 lg:flex lg:items-center lg:gap-4">
+      {/* Category */}
       <Select value={selectedCategory} onValueChange={onCategoryChange} dir={dir}>
-        <SelectTrigger className="w-[180px] bg-white text-primary">
-          <SelectValue
-            placeholder={isEnglish ? 'All Categories' : 'جميع الفئات'}
-          />
+        <SelectTrigger className="w-full bg-white sm:w-auto">
+          <SelectValue placeholder={isEnglish ? 'All Categories' : 'جميع الفئات'} />
         </SelectTrigger>
         <SelectContent>
           <SelectItem value="all">
@@ -50,29 +50,32 @@ const ProductFilters = ({
         </SelectContent>
       </Select>
 
+      {/* Sort */}
       <Select
         value={sortOption}
-        onValueChange={(value) => onSortChange(value as SortOption)} dir={dir}
+        onValueChange={(value) => onSortChange(value as SortOption)}
+        dir={dir}
       >
-        <SelectTrigger className="w-[180px] bg-white" >
+        <SelectTrigger className="w-full bg-white sm:w-auto">
           <SelectValue placeholder={isEnglish ? 'Sort by' : 'ترتيب حسب'} />
         </SelectTrigger>
         <SelectContent>
-          <SelectItem value="none">
-            {isEnglish ? 'No Sort' : 'بدون ترتيب'}
-          </SelectItem>
+          <SelectItem value="none">{isEnglish ? 'No Sort' : 'بدون ترتيب'}</SelectItem>
+
           <SelectItem value="price-asc">
             <div className="flex items-center gap-2">
               <ArrowUp className="h-4 w-4" />
               {isEnglish ? 'Price: Low to High' : 'السعر: من الأقل للأعلى'}
             </div>
           </SelectItem>
+
           <SelectItem value="price-desc">
             <div className="flex items-center gap-2">
               <ArrowDown className="h-4 w-4" />
               {isEnglish ? 'Price: High to Low' : 'السعر: من الأعلى للأقل'}
             </div>
           </SelectItem>
+
           <SelectItem value="category">
             <div className="flex items-center gap-2">
               <ArrowUpDown className="h-4 w-4" />
