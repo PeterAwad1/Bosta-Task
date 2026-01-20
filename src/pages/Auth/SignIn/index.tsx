@@ -1,5 +1,6 @@
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
+import { toast } from 'sonner';
 import { z } from 'zod';
 
 import CustomInput from '@/components/shared/form/CustomInput';
@@ -46,8 +47,7 @@ const SignIn = () => {
         password: data.password,
       });
     } catch {
-      // Error is already handled by useLogin's onError handler
-      // This catch prevents unhandled promise rejection
+      toast.error(isEnglish ? 'Failed to login' : 'فشل تسجيل الدخول');
     }
   };
 

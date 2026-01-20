@@ -17,14 +17,32 @@ import { Form } from '@/components/ui/form';
 
 import { useSignUp } from '@/hooks/features/auth/useSignUp';
 
-import { passwordSchema } from '@/utils';
-
 import useLocale from '@/i18n/useLocale';
 import { zodResolver } from '@hookform/resolvers/zod';
 
 const SignUp = () => {
   const { signUp, isSigningUp } = useSignUp();
   const { isEnglish } = useLocale();
+  
+    const passwordSchema = z
+    .string({
+      message: isEnglish ? 'Password can not be empty.' : 'كلمة المرور لا يمكن أن تكون فارغة.',
+    })
+    .regex(/^.{8,20}$/, {
+      message: isEnglish ? 'Minimum 8 and maximum 20 characters.' : 'يجب أن تكون كلمة المرور بين 8 و 20 حرفًا.',
+    })
+    .regex(/(?=.*[A-Z])/, {
+      message: isEnglish ? 'At least one uppercase character.' : 'يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل.',
+    })
+    .regex(/(?=.*[a-z])/, {
+      message: isEnglish ? 'At least one lowercase character.' : 'يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل.',
+    })
+    .regex(/(?=.*\d)/, {
+      message: isEnglish ? 'At least one digit.' : 'يجب أن تحتوي كلمة المرور على رقم واحد على الأقل.',
+    })
+    .regex(/[$&+,:;=?@#|'<>.^*()%!-]/, {
+      message: isEnglish ? 'At least one special character.' : 'يجب أن تحتوي كلمة المرور على رمز خاص واحد على الأقل.',
+    });
 
   const schema = z.object({
     username: z

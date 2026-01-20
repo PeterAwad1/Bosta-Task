@@ -2,7 +2,10 @@ import { Link } from 'react-router-dom';
 
 import { Button } from '@/components/ui/button';
 
+import useLocale from '@/i18n/useLocale';
+
 const NotFoundError = () => {
+  const { isEnglish } = useLocale();
   return (
     <section className='flex min-h-screen items-center justify-center bg-secondary-50'>
       <div className='container mx-auto flex flex-col items-center justify-center gap-y-6 px-4 py-8'>
@@ -16,10 +19,10 @@ const NotFoundError = () => {
             404
           </h1>
           <h1 className='text-2xl font-semibold text-secondary-900 xs:text-3xl sm:text-5xl'>
-            Page Not Found
+            {isEnglish ? 'Page Not Found' : 'الصفحة غير موجودة'}
           </h1>
           <p className='mx-auto max-w-2xl text-lg text-secondary-400 max-xs:text-base'>
-            The page you are looking for doesn't exist or has been moved.
+            {isEnglish ? 'The page you are looking for doesn\'t exist or has been moved.' : 'الصفحة التي تبحث عنها غير موجودة أو تم نقلها.'}
           </p>
         </div>
         <Button
@@ -27,10 +30,10 @@ const NotFoundError = () => {
           asChild
         >
           <Link
-            to='/signin'
+            to='/'
             replace={true}
           >
-            Back to Sign In
+           {isEnglish ? 'Back to Home' : 'العودة للصفحة الرئيسية'}
           </Link>
         </Button>
       </div>

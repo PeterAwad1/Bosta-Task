@@ -9,6 +9,7 @@ import {
 } from '@/components/ui/select';
 
 import useLocale from '@/i18n/useLocale';
+import useTranslations from '@/i18n/useTranslations';
 
 type SortOption = 'none' | 'price-asc' | 'price-desc' | 'category';
 
@@ -28,11 +29,11 @@ const ProductFilters = ({
   categories,
 }: ProductFiltersProps) => {
   const { isEnglish } = useLocale();
-
+  const { dir } = useTranslations();
   return (
     <div className="flex flex-wrap gap-4">
-      <Select value={selectedCategory} onValueChange={onCategoryChange}>
-        <SelectTrigger className="w-[180px]">
+      <Select value={selectedCategory} onValueChange={onCategoryChange} dir={dir}>
+        <SelectTrigger className="w-[180px] bg-white text-primary">
           <SelectValue
             placeholder={isEnglish ? 'All Categories' : 'جميع الفئات'}
           />
@@ -51,9 +52,9 @@ const ProductFilters = ({
 
       <Select
         value={sortOption}
-        onValueChange={(value) => onSortChange(value as SortOption)}
+        onValueChange={(value) => onSortChange(value as SortOption)} dir={dir}
       >
-        <SelectTrigger className="w-[180px]">
+        <SelectTrigger className="w-[180px] bg-white" >
           <SelectValue placeholder={isEnglish ? 'Sort by' : 'ترتيب حسب'} />
         </SelectTrigger>
         <SelectContent>

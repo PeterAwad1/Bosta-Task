@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import useLocale from '@/i18n/useLocale';
 import { cn } from '@/lib/utils';
 
-//import { useGlobalContext } from '@/context/GlobalContext';
+
 
 const Logo = ({ className }: { className?: string }) => {
-  // const { academyId } = useGlobalContext();
+
   const { isEnglish } = useLocale();
   return (
     <Link

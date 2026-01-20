@@ -1,4 +1,11 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from 'react';
 
 import { Product } from '@/types';
 
@@ -13,107 +20,108 @@ type CartContextType = {
   removeFromCart: (productId: number) => void;
   updateQuantity: (productId: number, quantity: number) => void;
   clearCart: () => void;
-  getTotalPrice: () => number;
-  getTotalItems: () => number;
+  totalPrice: number;
+  totalItems: number;
 };
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
+const CART_STORAGE_KEY = 'cart';
+
+function readCartFromStorage(): CartItem[] {
+  if (typeof window === 'undefined') return [];
+  try {
+    const raw = localStorage.getItem(CART_STORAGE_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
 export const CartProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
-  const [cartItems, setCartItems] = useState<CartItem[]>([]);
+  // ✅ lazy init (no extra useEffect needed to "load")
+  const [cartItems, setCartItems] = useState<CartItem[]>(readCartFromStorage);
 
-  // Load cart from localStorage on mount
+  // ✅ persist
   useEffect(() => {
-    const savedCart = localStorage.getItem('cart');
-    if (savedCart) {
-      try {
-        setCartItems(JSON.parse(savedCart));
-      } catch (error) {
-        console.error('Failed to load cart from localStorage', error);
-      }
+    try {
+      localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(cartItems));
+    } catch (e) {
+      console.error('Failed to save cart to localStorage', e);
     }
-  }, []);
-
-  // Save cart to localStorage whenever it changes
-  useEffect(() => {
-    localStorage.setItem('cart', JSON.stringify(cartItems));
   }, [cartItems]);
 
-  const addToCart = (product: Product, quantity: number = 1) => {
-    setCartItems((prevItems) => {
-      const existingItem = prevItems.find(
-        (item) => item.product.id === product.id,
-      );
+  const addToCart = useCallback((product: Product, quantity = 1) => {
+    if (quantity <= 0) return;
 
-      if (existingItem) {
-        return prevItems.map((item) =>
-          item.product.id === product.id
-            ? { ...item, quantity: item.quantity + quantity }
-            : item,
-        );
-      }
+    setCartItems((prev) => {
+      const idx = prev.findIndex((x) => x.product.id === product.id);
+      if (idx === -1) return [...prev, { product, quantity }];
 
-      return [...prevItems, { product, quantity }];
+      const next = [...prev];
+      next[idx] = { ...next[idx], quantity: next[idx].quantity + quantity };
+      return next;
     });
-  };
+  }, []);
 
-  const removeFromCart = (productId: number) => {
-    setCartItems((prevItems) =>
-      prevItems.filter((item) => item.product.id !== productId),
-    );
-  };
+  const removeFromCart = useCallback((productId: number) => {
+    setCartItems((prev) => prev.filter((x) => x.product.id !== productId));
+  }, []);
 
-  const updateQuantity = (productId: number, quantity: number) => {
-    if (quantity <= 0) {
-      removeFromCart(productId);
-      return;
-    }
+  const updateQuantity = useCallback((productId: number, quantity: number) => {
+    setCartItems((prev) => {
+      if (quantity <= 0) return prev.filter((x) => x.product.id !== productId);
+      return prev.map((x) =>
+        x.product.id === productId ? { ...x, quantity } : x,
+      );
+    });
+  }, []);
 
-    setCartItems((prevItems) =>
-      prevItems.map((item) =>
-        item.product.id === productId ? { ...item, quantity } : item,
-      ),
-    );
-  };
+  const clearCart = useCallback(() => setCartItems([]), []);
 
-  const clearCart = () => {
-    setCartItems([]);
-  };
-
-  const getTotalPrice = () => {
+  // ✅ derived values (fast + stable)
+  const { totalItems, totalPrice } = useMemo(() => {
     return cartItems.reduce(
-      (total, item) => total + item.product.price * item.quantity,
-      0,
+      (acc, item) => {
+        acc.totalItems += item.quantity;
+        acc.totalPrice += item.product.price * item.quantity;
+        return acc;
+      },
+      { totalItems: 0, totalPrice: 0 },
     );
-  };
+  }, [cartItems]);
 
-  const getTotalItems = () => {
-    return cartItems.reduce((total, item) => total + item.quantity, 0);
-  };
-
-  return (
-    <CartContext.Provider
-      value={{
-        cartItems,
-        addToCart,
-        removeFromCart,
-        updateQuantity,
-        clearCart,
-        getTotalPrice,
-        getTotalItems,
-      }}
-    >
-      {children}
-    </CartContext.Provider>
+  // ✅ stable context value (reduces rerenders)
+  const value = useMemo<CartContextType>(
+    () => ({
+      cartItems,
+      addToCart,
+      removeFromCart,
+      updateQuantity,
+      clearCart,
+      totalItems,
+      totalPrice,
+    }),
+    [
+      cartItems,
+      addToCart,
+      removeFromCart,
+      updateQuantity,
+      clearCart,
+      totalItems,
+      totalPrice,
+    ],
   );
+
+  return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
 };
 
 export const useCart = () => {
-  const context = useContext(CartContext);
-  if (context === undefined) {
-    throw new Error('useCart must be used within a CartProvider');
-  }
-  return context;
+  const ctx = useContext(CartContext);
+  if (!ctx) throw new Error('useCart must be used within a CartProvider');
+  return ctx;
 };

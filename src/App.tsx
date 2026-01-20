@@ -73,7 +73,6 @@ const queryClient = new QueryClient({
 
 function App() {
   useLocalizeDocumentAttributes();
-
   return (
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={router} />

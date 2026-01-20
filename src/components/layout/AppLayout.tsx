@@ -7,7 +7,10 @@ import { AuthProvider } from '@/context/AuthContext';
 import { CartProvider } from '@/context/CartContext';
 import { GlobalProvider } from '@/context/GlobalContext';
 
+import useScrollToTop from '@/hooks/useScrollToTop';
+
 function AppLayout() {
+  useScrollToTop();
   return (
     <GlobalProvider>
       <AuthProvider>

@@ -55,7 +55,7 @@ const Footer = () => {
     <footer className="bg-neutral-900 text-neutral-100">
       <div className="container mx-auto py-12 px-4 md:px-6 lg:px-[72px]">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {/* Brand & Description */}
+          
           <div className="space-y-4">
             <Link to="/" className="inline-block">
               <div className="flex items-center gap-2">
@@ -77,7 +77,6 @@ const Footer = () => {
                 : 'شريكك الموثوق للمنتجات عالية الجودة والخدمة المتميزة. نقدم التميز كل يوم.'}
             </p>
 
-            {/* Social Media */}
             <div className="flex gap-3">
               {SOCIAL_LINKS.map(({ name, icon, href }) => (
                 <a
@@ -96,7 +95,7 @@ const Footer = () => {
 
         <div/>
 
-          {/* Contact Info */}
+
           <div>
             <h3 className="mb-4 text-lg font-semibold text-white">
               {isEnglish ? 'Contact Us' : 'اتصل بنا'}
@@ -121,7 +120,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Newsletter/Download App */}
+     
           <div>
             <h3 className="mb-4 text-lg font-semibold text-white">
               {isEnglish ? 'Stay Connected' : 'ابق على اتصال'}
@@ -144,7 +143,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
+
         <div className="mt-12 border-t border-neutral-800 pt-8">
           <div className="flex flex-col gap-4 text-center text-sm text-neutral-400 md:flex-row md:items-center md:justify-between">
             <p>

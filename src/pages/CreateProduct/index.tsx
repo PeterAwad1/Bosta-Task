@@ -48,7 +48,6 @@ const CreateProduct = () => {
     defaultValues: {
       title: '',
       description: '',
-     
       category: '',
       image: '',
     },
